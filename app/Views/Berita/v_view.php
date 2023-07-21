@@ -15,12 +15,13 @@
             <hr> <!-- Garis pemisah -->
             <p><strong>Slug Berita:</strong> <?= $berita['slug_berita'] ?></p>
             <hr> <!-- Garis pemisah -->
-            <?php if (!empty($berita['gambar'])): ?>
+            <?php if (!empty($berita['gambar']) && file_exists('gambarberita/' . $berita['gambar'])): ?>
             <strong>Gambar berita:</strong><br>
             <img src="<?= base_url('gambarberita/' . $berita['gambar']) ?>" style="width: 100%; height: auto;"
                 alt="Gambar Berita">
             <hr> <!-- Garis pemisah -->
             <?php endif; ?>
+
             <a href="<?= base_url('Berita') ?>" class="btn btn-secondary">Kembali</a>
         </div>
     </div>

@@ -18,8 +18,8 @@
             </div>
             <div class="form-group">
                 <label for="isi_berita">Isi Berita</label>
-                <textarea name="isi_berita" class="form-control" rows="6" placeholder="Masukkan isi berita"
-                    required></textarea>
+                <textarea id="summernote" name="isi_berita" class="form-control" rows="6"
+                    placeholder="Masukkan isi berita" required></textarea>
             </div>
 
             <div class="form-group">
@@ -33,11 +33,13 @@
             <?= form_close() ?>
         </div>
     </div>
+</div>
 
-    <script>
-    $(function() {
-        $('#summernote').summernote({
-            height: '350px'
-        });
+<!-- Pastikan Anda telah memuat library jQuery dan summernote sebelum script ini -->
+<script>
+$(function() {
+    $('#summernote').summernote({
+        height: '350px'
     });
-    </script>
+});
+</script>

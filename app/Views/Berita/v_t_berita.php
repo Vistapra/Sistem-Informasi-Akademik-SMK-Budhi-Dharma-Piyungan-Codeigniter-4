@@ -9,23 +9,22 @@
             </div>
         </div>
 
-        <div class="card-body">
-            <?php if (session()->getFlashdata('tambah')): ?>
-            <div class="alert alert-success" role="alert">
-                <?= session()->getFlashdata('tambah') ?>
-            </div>
-            <?php endif; ?>
-            <?php if (session()->getFlashdata('ubah')): ?>
-            <div class="alert alert-success" role="alert">
-                <?= session()->getFlashdata('ubah') ?>
-            </div>
-            <?php endif; ?>
-            <?php if (session()->getFlashdata('hapus')): ?>
-            <div class="alert alert-danger" role="alert">
-                <?= session()->getFlashdata('hapus') ?>
-            </div>
-            <?php endif; ?>
+
+        <?php if (session()->getFlashdata('tambah')): ?>
+        <div class="alert alert-success" role="alert">
+            <?= session()->getFlashdata('tambah') ?>
         </div>
+        <?php endif; ?>
+        <?php if (session()->getFlashdata('ubah')): ?>
+        <div class="alert alert-success" role="alert">
+            <?= session()->getFlashdata('ubah') ?>
+        </div>
+        <?php endif; ?>
+        <?php if (session()->getFlashdata('hapus')): ?>
+        <div class="alert alert-danger" role="alert">
+            <?= session()->getFlashdata('hapus') ?>
+        </div>
+        <?php endif; ?>
 
         <div class="table-responsive">
             <table id="example1" class="table table-bordered table-striped">

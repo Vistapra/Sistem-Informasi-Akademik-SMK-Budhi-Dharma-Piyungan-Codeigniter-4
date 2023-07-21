@@ -6,6 +6,8 @@ use CodeIgniter\Model;
 
 class ModelBerita extends Model
 {
+
+    protected $table = 'berita';
     public function AllData()
     {
         return $this->db
@@ -22,6 +24,14 @@ class ModelBerita extends Model
         return $this->db
             ->table('berita')
             ->where('id_berita', $id_berita)
+            ->get()
+            ->getRowArray();
+    }
+    public function tampilBerita($slug_berita)
+    {
+        return $this->db
+            ->table('berita')
+            ->where('slug_berita', $slug_berita)
             ->get()
             ->getRowArray();
     }

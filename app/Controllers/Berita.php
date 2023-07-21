@@ -53,10 +53,11 @@ class Berita extends BaseController
     $data = [
         'judul' => 'Detail Berita',
         'subjudul' => '',
+        'page' => 'Berita/v_view',
         'berita' => $this->ModelBerita->DetailData($id_berita),
     ];
 
-    return view('Berita/v_view', $data);
+    return view('Frontend/v_halaman_admin', $data);
 }
 
 

@@ -54,10 +54,11 @@ class Jurusan extends BaseController
         $data = [
             'judul' => 'Detail Jurusan',
             'subjudul' => '',
+            'page' => 'jurusan/v_view',
             'jurusan' => $this->ModelJurusan->DetailData($id_jurusan),
         ];
     
-        return view('Jurusan/v_view', $data);
+        return view('Frontend/v_halaman_admin', $data);
     }
 
     public function tambahData()

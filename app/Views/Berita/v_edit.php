@@ -23,8 +23,12 @@
                     required><?= $berita['isi_berita']; ?></textarea>
             </div>
             <div class="form-group">
+                <label>Gambar Saat Ini:</label><br>
+                <img src="<?= base_url('gambarberita/') . $berita['gambar']; ?>" style="max-width: 200px;">
+            </div>
+            <div class="form-group">
                 <label for="gambar">Gambar</label>
-                <input type="file" name="gambar" class="form-control-file">
+                <input type="file" name="gambar" class="form-control-file" required>
             </div>
             <div class="card-footer">
                 <button type="submit" class="btn btn-primary">Simpan</button>

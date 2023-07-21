@@ -43,11 +43,12 @@ class Filters extends BaseConfig
                 'except' => [
                     'Auth', 'Auth/*',
                     'Home', 'Home/*',
-                    'DasboardAdmin', 'DasboardAdmin/*',
                     'Jurusan', 'Jurusan/*',
                     'Kelas', 'Kelas/*',
                     'Mapel', 'Mapel/*',
                     'Berita', 'Berita/*',
+                    'Siswa', 'Siswa/*',
+                    'Guru', 'Guru/*',
                 ]
                 ],
         ],

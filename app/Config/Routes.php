@@ -33,7 +33,6 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('form', 'Form::index');
 $routes->post('form', 'Form::index');
-$routes->get('dasboard', 'DasboardAdmin::index', ['filter' => 'auth']);
 $routes->get('logout', 'Auth::logout');
 
 /*
