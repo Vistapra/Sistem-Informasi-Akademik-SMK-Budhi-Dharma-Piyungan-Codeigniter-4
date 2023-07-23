@@ -7,11 +7,11 @@ use App\Models\ModelAuth;
 
 class Auth extends BaseController
 {
-    private $modelAuth;
+    private $ModelAuth;
 
     public function __construct()
     {
-        $this->modelAuth = new ModelAuth();
+        $this->ModelAuth = new ModelAuth();
     }
 
     public function index()
@@ -30,13 +30,27 @@ class Auth extends BaseController
         $password = $this->request->getPost('password');
 
         if ($level == 1) {
-            $cek = $this->modelAuth->LoginUser($username, $password);
+            // Memanggil method LoginUser dari Model ModelAuth
+            $cek = $this->ModelAuth->LoginUser($username, $password);
+
             if ($cek) {
                 session()->set('username', $cek['username']);
                 session()->set('level', $cek['level']);
                 return redirect()->to('Berita');
             } else {
                 session()->setFlashdata('pesan', 'Username atau Password Salah');
+                return redirect()->to('Auth')->withInput();
+            }
+        } else if ($level == 2) { // Menambahkan kondisi untuk level guru
+            // Memanggil method LoginGuru dari Model ModelAuth
+            $cek = $this->ModelAuth->LoginGuru($username, $password);
+
+            if ($cek) {
+                session()->set('nip', $cek['nip']); // Menyimpan nip di session
+                session()->set('level', $cek['level']);
+                return redirect()->to('Berita');
+            } else {
+                session()->setFlashdata('pesan', 'nip atau Password Salah');
                 return redirect()->to('Auth')->withInput();
             }
         } else {

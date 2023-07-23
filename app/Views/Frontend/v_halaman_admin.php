@@ -14,6 +14,25 @@
         href="<?= base_url('AdminLte') ?>/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
     <link rel="stylesheet" href="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
     <link rel="stylesheet" href="<?= base_url('AdminLte') ?>/plugins/summernote/summernote-bs4.min.css">
+    <script src="<?= base_url('AdminLte') ?>/plugins/jquery/jquery.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/jszip/jszip.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/dist/js/adminlte.min.js"></script>
+    <script src="<?= base_url('AdminLte') ?>/plugins/summernote/summernote-bs4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap4.min.js"></script>
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -37,7 +56,6 @@
                 </li>
             </ul>
         </nav>
-
         <aside class="main-sidebar sidebar-light-primary elevation-4">
             <a href="<?= base_url('Berita') ?>" class="brand-link text-center">
                 <span class="brand-text font-weight-bold">SISBUDHI</span>
@@ -50,6 +68,12 @@
                             <a href="<?= base_url('Berita') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>Berita</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?= base_url('Guru') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>Data Guru</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -69,11 +93,7 @@
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>Data Mata Pelajaran</p>
                             </a>
-                        <li class="nav-item">
-                            <a href="<?= base_url('') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-table"></i>
-                                <p>Data Guru</p>
-                            </a>
+                        </li>
                         <li class="nav-item">
                             <a href="<?= base_url('') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
@@ -84,7 +104,6 @@
                 </nav>
             </div>
         </aside>
-
         <div class="content-wrapper">
             <section class="content-header">
                 <div class="container-fluid">
@@ -102,23 +121,6 @@
             </section>
         </div>
     </div>
-
-    <script src="<?= base_url('AdminLte') ?>/plugins/jquery/jquery.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/datatables/jquery.dataTables.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/jszip/jszip.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/pdfmake/pdfmake.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/pdfmake/vfs_fonts.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/js/buttons.print.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/dist/js/adminlte.min.js"></script>
-    <script src="<?= base_url('AdminLte') ?>/plugins/summernote/summernote-bs4.min.js"></script>
 </body>
 
 </html>

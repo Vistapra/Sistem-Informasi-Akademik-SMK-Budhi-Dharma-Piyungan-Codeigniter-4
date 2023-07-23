@@ -5,7 +5,7 @@
                 <?= $subjudul ?>
             </h3>
         </div>
-        <?= form_open('Jurusan/tambahData') ?>
+        <?= form_open('Jurusan/TambahData') ?>
         <div class="card-body">
             <div class="row">
                 <div class="col-sm-2">
@@ -34,10 +34,3 @@
         <?= form_close() ?>
     </div>
 </div>
-<script>
-$(function() {
-    $('#summernote').summernote({
-        height: '350px'
-    });
-});
-</script>

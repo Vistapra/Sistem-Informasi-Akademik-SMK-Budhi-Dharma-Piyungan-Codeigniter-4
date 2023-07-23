@@ -9,27 +9,26 @@ class ModelKelas extends Model
     public function AllData()
     {
         return $this->db
-            ->table('kelas')
-            ->get()
-            ->getResultArray();
+            ->table('kelas')->get()->getResultArray();
     }
-    public function tambahData($data)
+    public function DetailData($id_kelas)
+    {
+        return $this->db
+            ->table('kelas')->where('id_kelas', $id_kelas)->get()->getRowArray();
+    }
+    public function TambahData($data)
     {
         return $this->db->table('kelas')->insert($data);
     }
-    public function ubahData($data)
+    public function UbahData($data)
     {
         return $this->db
-            ->table('kelas')
-            ->where('id_kelas', $data['id_kelas'])
-            ->update($data);
+            ->table('kelas')->where('id_kelas', $data['id_kelas'])->update($data);
     }
 
-    public function hapusData($id_kelas)
+    public function HapusData($id_kelas)
     {
         return $this->db
-            ->table('kelas')
-            ->where('id_kelas', $id_kelas)
-            ->delete();
+            ->table('kelas')->where('id_kelas', $id_kelas)->delete();
     }
 }

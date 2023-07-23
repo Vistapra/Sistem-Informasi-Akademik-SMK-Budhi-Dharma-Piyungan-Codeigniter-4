@@ -24,7 +24,7 @@
         </div>
         <?php endif; ?>
         <div class="card-body">
-            <table class="table table-bordered">
+            <table id="example2" class="table table-bordered">
                 <thead class="bg-primary">
                     <tr class="text-center">
                         <th width="50px">No</th>
@@ -121,3 +121,17 @@
     </div>
 </div>
 <?php endforeach; ?>
+
+<script>
+$(function() {
+    $('#example2').DataTable({
+        "paging": true,
+        "lengthChange": true,
+        "searching": true,
+        "ordering": true,
+        "info": true,
+        "autoWidth": true,
+        "responsive": true,
+    });
+});
+</script>

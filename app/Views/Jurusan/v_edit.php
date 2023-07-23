@@ -5,7 +5,7 @@
                 <?= $subjudul ?>
             </h3>
         </div>
-        <?= form_open('Jurusan/ubahData/'.$jurusan['id_jurusan']) ?>
+        <?= form_open('Jurusan/UbahData/'.$jurusan['id_jurusan']) ?>
         <div class="card-body">
             <div class="row">
                 <div class="col-sm-2">
@@ -25,7 +25,7 @@
             </div>
             <div class="form-group">
                 <label for="visi_misi">Visi Misi</label>
-                <textarea id="summernote" name="visi_misi" required><?= $jurusan['visi_misi'] ?></textarea>
+                <textarea name="visi_misi" required><?= $jurusan['visi_misi'] ?></textarea>
             </div>
             <div class="card-footer">
                 <button type="submit" class="btn btn-primary btn-flat">Simpan</button>
@@ -35,11 +35,3 @@
         <?= form_close() ?>
     </div>
 </div>
-
-<script>
-$(function() {
-    $('#summernote').summernote({
-        height: '350px'
-    });
-});
-</script>

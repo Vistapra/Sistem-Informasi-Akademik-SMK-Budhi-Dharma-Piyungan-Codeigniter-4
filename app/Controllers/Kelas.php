@@ -7,54 +7,70 @@ use App\Models\ModelKelas;
 
 class Kelas extends BaseController
 {
-    protected $modelKelas;
+    protected $ModelKelas;
 
     public function __construct()
     {
-        $this->modelKelas = new ModelKelas();
+        $this->ModelKelas = new ModelKelas();
     }
-
     public function index()
     {
         $data = [
             'judul' => 'Kelas',
             'subjudul' => 'Data Kelas',
             'page' => 'kelas/v_t_kelas',
-            'kelas' => $this->modelKelas->AllData(),
+            'kelas' => $this->ModelKelas->AllData(),
         ];
 
         return view('Frontend/v_halaman_admin', $data);
     }
-    
-    public function tambahData()
+    public function Tambah()
     {
-        if ($this->request->getMethod() === 'post') {
-            $data = [
-                'kelas' => $this->request->getPost('kelas'),
-            ];
-            $this->modelKelas->tambahData($data);
-            session()->setFlashdata('tambah', 'Data Berhasil Ditambahkan');
-            return redirect()->to('/Kelas');
-        }
-    }
+        $data = [
+            'judul' => 'Kelas',
+            'subjudul' => 'Tambah Kelas',
+            'page' => 'Kelas/v_tambah',
+            'kelas' => $this->ModelKelas->AllData(),
+        ];
 
-    public function ubahData()
+        return view('Frontend/v_halaman_admin', $data);
+    }
+   
+    public function Edit($id_kelas)
     {
-        if ($this->request->getMethod() === 'post') {
-            $data = [
+        $data = [
+            'judul' => 'Kelas',
+            'subjudul' => 'Edit Kelas',
+            'page' => 'Kelas/v_edit',
+            'kelas' => $this->ModelKelas->DetailData($id_kelas),
+        ];
+
+        return view('Frontend/v_halaman_admin', $data);
+    }
+    public function TambahData()
+    {
+        $data = [
+            'kelas' => $this->request->getPost('kelas'),
+        ];
+
+        $this->ModelKelas->TambahData($data);
+        session()->setFlashdata('tambah', 'Data Berhasil Ditambahkan');
+        return redirect()->to('Kelas');
+    }
+    public function UbahData()
+    {
+        $data = [
                 'id_kelas' => $this->request->getPost('id_kelas'),
                 'kelas' => $this->request->getPost('kelas'),
             ];
-            $this->modelKelas->ubahData($data);
+            $this->ModelKelas->UbahData($data);
             session()->setFlashdata('ubah', 'Data Berhasil Diubah');
-            return redirect()->to('/Kelas');
+            return redirect()->to('Kelas');
         }
-    }
-
-    public function hapusData($id_kelas)
+    public function HapusData($id_kelas)
     {
-        $this->modelKelas->hapusData($id_kelas);
+        $this->ModelKelas->HapusData($id_kelas);
         session()->setFlashdata('hapus', 'Data Berhasil Dihapus');
-        return redirect()->to('/Kelas');
+        return redirect()->to('Kelas');
     }
 }

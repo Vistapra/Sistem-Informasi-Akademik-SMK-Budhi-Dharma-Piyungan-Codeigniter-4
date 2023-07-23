@@ -5,7 +5,7 @@
                 <?= $subjudul ?>
             </h3>
         </div>
-        <?= form_open_multipart('Berita/tambahData') ?>
+        <?= form_open_multipart('Berita/TambahData') ?>
         <div class="card-body">
             <div class="form-group">
                 <label for="judul_berita">Judul Berita</label>
@@ -16,10 +16,11 @@
                 <label for="slug_berita">Slug Berita</label>
                 <input type="text" name="slug_berita" class="form-control" placeholder="Masukkan slug berita" required>
             </div>
+
             <div class="form-group">
                 <label for="isi_berita">Isi Berita</label>
-                <textarea id="summernote" name="isi_berita" class="form-control" rows="6"
-                    placeholder="Masukkan isi berita" required></textarea>
+                <textarea name="isi_berita" class="form-control" rows="6" placeholder="Masukkan isi berita"
+                    required></textarea>
             </div>
 
             <div class="form-group">
@@ -30,16 +31,7 @@
                 <button type="submit" class="btn btn-primary">Simpan</button>
                 <a href="<?= base_url('Berita') ?>" class="btn btn-success">Kembali</a>
             </div>
-            <?= form_close() ?>
         </div>
+        <?= form_close() ?>
     </div>
 </div>
-
-<!-- Pastikan Anda telah memuat library jQuery dan summernote sebelum script ini -->
-<script>
-$(function() {
-    $('#summernote').summernote({
-        height: '350px'
-    });
-});
-</script>

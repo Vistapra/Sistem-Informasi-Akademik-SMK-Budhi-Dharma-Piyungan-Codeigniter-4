@@ -6,7 +6,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title>SMK BUDHI DHARMA PIYUNGAN</title>
     <link rel="shortcut icon" href="<?= base_url('smkbudhi') ?>/images/logosmk.png" alt="Logo">
     <link rel="stylesheet" href="<?= base_url('smkbudhi') ?>/css/slick.css">
@@ -26,7 +25,6 @@
     $db = \Config\Database::connect();
     $jurusan = $db->table('jurusan')->get()->getResultArray();
     ?>
-
     <header id="header-part">
         <div class="header-top d-none d-lg-block">
             <div class="container">
@@ -40,8 +38,6 @@
                 </div>
             </div>
         </div>
-        </div>
-
         <div class="header-logo-support pt-30 pb-30">
             <div class="container">
                 <div class="row">
@@ -71,7 +67,6 @@
                 </div>
             </div>
         </div>
-
         <div class="navigation">
             <div class="container">
                 <div class="row">
@@ -104,20 +99,16 @@
             </div>
         </div>
     </header>
-
     <section class="content">
         <?php if ($page) {
             echo view($page);
         } ?>
     </section>
-
     <footer class="header-top d-none d-lg-block">
         <div class="text-center p-3">
             <strong><a class="text-white">V1 2023-"SMK BUDHI DHARMA PIYUNGAN"</a></strong>
         </div>
     </footer>
-
-
     <script src="<?= base_url('smkbudhi') ?>/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="<?= base_url('smkbudhi') ?>/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="<?= base_url('smkbudhi') ?>/js/bootstrap.min.js"></script>

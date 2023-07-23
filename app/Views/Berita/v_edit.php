@@ -5,7 +5,7 @@
                 <?= $subjudul ?>
             </h3>
         </div>
-        <?= form_open_multipart('Berita/ubahData/'.$berita['id_berita']); ?>
+        <?= form_open_multipart('Berita/UbahData/'.$berita['id_berita']); ?>
         <div class="card-body">
             <div class="form-group">
                 <label for="judul_berita">Judul Berita</label>
@@ -28,7 +28,7 @@
             </div>
             <div class="form-group">
                 <label for="gambar">Gambar</label>
-                <input type="file" name="gambar" class="form-control-file" required>
+                <input type="file" name="gambar" class="form-control-file">
             </div>
             <div class="card-footer">
                 <button type="submit" class="btn btn-primary">Simpan</button>
@@ -38,10 +38,3 @@
         <?= form_close(); ?>
     </div>
 </div>
-<script>
-$(document).ready(function() {
-    $('#summernote').summernote({
-        height: '350px'
-    });
-});
-</script>

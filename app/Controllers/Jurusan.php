@@ -26,7 +26,7 @@ class Jurusan extends BaseController
         return view('Frontend/v_halaman_admin', $data);
     }
 
-    public function tambah()
+    public function Tambah()
     {
         $data = [
             'judul' => 'Jurusan',
@@ -38,7 +38,7 @@ class Jurusan extends BaseController
         return view('Frontend/v_halaman_admin', $data);
     }
    
-    public function edit($id_jurusan)
+    public function Edit($id_jurusan)
     {
         $data = [
             'judul' => 'Jurusan',
@@ -49,7 +49,7 @@ class Jurusan extends BaseController
 
         return view('Frontend/v_halaman_admin', $data);
     }
-    public function view($id_jurusan)
+    public function View($id_jurusan)
     {
         $data = [
             'judul' => 'Detail Jurusan',
@@ -61,7 +61,7 @@ class Jurusan extends BaseController
         return view('Frontend/v_halaman_admin', $data);
     }
 
-    public function tambahData()
+    public function TambahData()
     {
         $data = [
             'kode_jurusan' => $this->request->getPost('kode_jurusan'),
@@ -69,12 +69,12 @@ class Jurusan extends BaseController
             'visi_misi' => $this->request->getPost('visi_misi'),
         ];
 
-        $this->ModelJurusan->tambahData($data);
+        $this->ModelJurusan->TambahData($data);
         session()->setFlashdata('tambah', 'Data Berhasil Ditambahkan');
         return redirect()->to('/Jurusan');
     }
 
-    public function ubahData($id_jurusan)
+    public function UbahData($id_jurusan)
     {
         $data = [
             'id_jurusan' => $id_jurusan,
@@ -82,14 +82,14 @@ class Jurusan extends BaseController
             'jurusan' => $this->request->getPost('jurusan'),
             'visi_misi' => $this->request->getPost('visi_misi'),
         ];
-        $this->ModelJurusan->ubahData($data);
+        $this->ModelJurusan->UbahData($data);
         session()->setFlashdata('ubah', 'Data Berhasil Diubah');
         return redirect()->to('/Jurusan');
     }
 
-    public function hapusData($id_jurusan)
+    public function HapusData($id_jurusan)
     {
-        $this->ModelJurusan->hapusData($id_jurusan);
+        $this->ModelJurusan->HapusData($id_jurusan);
         session()->setFlashdata('hapus', 'Data Berhasil Dihapus');
         return redirect()->to('/Jurusan');
     }
