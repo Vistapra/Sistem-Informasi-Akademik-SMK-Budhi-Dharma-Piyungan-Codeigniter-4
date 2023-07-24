@@ -21,11 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-
-
-                <?php
-                foreach ($berita as $key => $data) {
-                    ?>
+                <?php foreach ($berita as $key => $data) { ?>
                 <div class="singel-blog mt-30">
                     <div class="blog-thum">
                         <img src="<?= base_url('gambarberita/' . $data['gambar']) ?>" alt="Blog">
@@ -41,7 +37,6 @@
                     </div>
                 </div>
                 <?php } ?>
-
                 <?= $pager->links('berita', 'custom_pager') ?>
             </div>
         </div>

@@ -6,33 +6,29 @@ use CodeIgniter\Model;
 
 class ModelMapel extends Model
 {
-    protected $table = 'mapel';
-    protected $primaryKey = 'id_mapel';
-    protected $allowedFields = ['kode_mapel', 'mapel', 'visi_misi'];
-
     public function AllData()
     {
-        return $this->findAll();
+        return $this->db
+            ->table('mapel')->get()->getResultArray();
     }
-
     public function DetailData($id_mapel)
     {
-        return $this->where('id_mapel', $id_mapel)
-            ->first();
+        return $this->db
+            ->table('mapel')->where('id_mapel', $id_mapel)->get()->getRowArray();
+    }
+    public function TambahData($data)
+    {
+        return $this->db->table('mapel')->insert($data);
+    }
+    public function UbahData($data)
+    {
+        return $this->db
+            ->table('mapel')->where('id_mapel', $data['id_mapel'])->update($data);
     }
 
-    public function tambahData($data)
+    public function HapusData($id_mapel)
     {
-        return $this->insert($data);
-    }
-
-    public function ubahData($data)
-    {
-        return $this->update($data['id_mapel'], $data);
-    }
-
-    public function hapusData($id_mapel)
-    {
-        return $this->delete($id_mapel);
+        return $this->db
+            ->table('mapel')->where('id_mapel', $id_mapel)->delete();
     }
 }

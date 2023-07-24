@@ -43,7 +43,7 @@
                             <div class="btn-group">
                                 <a class="btn btn-warning" data-toggle="modal"
                                     data-target="#edit<?= $data['id_mapel'] ?>"><i class="fas fa-pencil-alt"></i></a>
-                                <a href="<?= base_url('Mapel/hapusData/'.$data['id_mapel']) ?>"
+                                <a href="<?= base_url('Mapel/HapusData/'.$data['id_mapel']) ?>"
                                     onclick="return confirm('Apakah Anda Yakin Ingin Menghapus Data Ini ?')"
                                     class="btn btn-danger"><i class="fas fa-trash"></i></a>
                             </div>
@@ -56,7 +56,6 @@
     </div>
 </div>
 
-<!-- tambahData -->
 <div class="modal fade" id="add">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -66,7 +65,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <?= form_open('Mapel/tambahData') ?>
+            <?= form_open('Mapel/TambahData') ?>
             <div class="modal-body">
                 <div class="form-group">
                     <label for="kode_mapel">Kode Mapel</label>
@@ -97,7 +96,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <?= form_open('Mapel/ubahData') ?>
+            <?= form_open('Mapel/UbahData') ?>
             <div class="modal-body">
                 <div class="form-group">
                     <label for="mapel">Kode Mapel</label>

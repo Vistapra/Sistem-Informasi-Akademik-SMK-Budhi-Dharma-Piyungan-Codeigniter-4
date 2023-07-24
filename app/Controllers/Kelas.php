@@ -24,29 +24,6 @@ class Kelas extends BaseController
 
         return view('Frontend/v_halaman_admin', $data);
     }
-    public function Tambah()
-    {
-        $data = [
-            'judul' => 'Kelas',
-            'subjudul' => 'Tambah Kelas',
-            'page' => 'Kelas/v_tambah',
-            'kelas' => $this->ModelKelas->AllData(),
-        ];
-
-        return view('Frontend/v_halaman_admin', $data);
-    }
-   
-    public function Edit($id_kelas)
-    {
-        $data = [
-            'judul' => 'Kelas',
-            'subjudul' => 'Edit Kelas',
-            'page' => 'Kelas/v_edit',
-            'kelas' => $this->ModelKelas->DetailData($id_kelas),
-        ];
-
-        return view('Frontend/v_halaman_admin', $data);
-    }
     public function TambahData()
     {
         $data = [
