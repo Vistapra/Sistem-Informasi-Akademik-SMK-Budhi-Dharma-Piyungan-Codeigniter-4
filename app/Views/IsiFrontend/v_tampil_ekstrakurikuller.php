@@ -32,6 +32,7 @@
                                 <h1><?= $data['nama_ekstra'] ?></h1>
                             </a>
                             <hr>
+                            <span><?= $data['jadwal_kegiatan'] ?></span>
                             <span><?= $data['deskripsi'] ?></span>
                         </div>
                     </div>
