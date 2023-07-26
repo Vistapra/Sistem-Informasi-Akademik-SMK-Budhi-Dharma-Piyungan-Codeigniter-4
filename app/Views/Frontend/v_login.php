@@ -28,14 +28,13 @@
 
                 <?= form_open('Auth/cekLogin') ?>
                 <div class="form-group">
-                    <input type="text" name="username" class="form-control" placeholder="Username/NISN/NIP" required>
+                    <input type="text" name="username" class="form-control" placeholder="NISN/NIP" required>
                 </div>
                 <div class="form-group">
                     <select name="level" class="form-control" required>
-                        <option value="">Level</option>
-                        <option value="1">Admin</option>
-                        <option value="2">Guru</option>
-                        <option value="3">Siswa</option>
+                        <option value="">---Level---</option>
+                        <option value="1">Guru</option>
+                        <option value="2">Siswa</option>
                     </select>
                 </div>
                 <div class="form-group">

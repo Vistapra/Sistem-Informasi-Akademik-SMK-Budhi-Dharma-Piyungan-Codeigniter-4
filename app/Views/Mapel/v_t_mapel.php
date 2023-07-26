@@ -3,9 +3,11 @@
         <div class="card-header">
             <h3 class="card-title"><?= $subjudul ?></h3>
             <div class="card-tools">
+                <?php if ($level === '1') { ?>
                 <a class="btn btn-primary" data-toggle="modal" data-target="#add">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
+                <?php } ?>
             </div>
         </div>
         <?php if (session()->getFlashdata('tambah')): ?>
@@ -30,15 +32,18 @@
                         <th width="50px">No</th>
                         <th width="100px">Kode</th>
                         <th>Mata Pelajaran</th>
+                        <?php if ($level === '1') { ?>
                         <th width="100px">Aksi</th>
+                        <?php } ?>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach ($mapel as $key => $data): ?>
+                    <?php foreach ($mapel as $key => $data) { ?>
                     <tr>
                         <td class="text-center"><?= $key + 1 ?></td>
                         <td><?= $data['kode_mapel'] ?></td>
                         <td><?= $data['mapel'] ?></td>
+                        <?php if ($level === '1') { ?>
                         <td class="text-center">
                             <div class="btn-group">
                                 <a class="btn btn-warning" data-toggle="modal"
@@ -48,8 +53,9 @@
                                     class="btn btn-danger"><i class="fas fa-trash"></i></a>
                             </div>
                         </td>
+                        <?php } ?>
                     </tr>
-                    <?php endforeach; ?>
+                    <?php } ?>
                 </tbody>
             </table>
         </div>

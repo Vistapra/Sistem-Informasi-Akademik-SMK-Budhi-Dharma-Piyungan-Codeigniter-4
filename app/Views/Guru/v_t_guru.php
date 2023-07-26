@@ -3,48 +3,52 @@
         <div class="card-header">
             <h3 class="card-title"><i class="fas fa-newspaper"></i> <?= $subjudul ?></h3>
             <div class="card-tools">
+                <?php if ($level === '1') { ?>
                 <a href="<?= base_url('Guru/Tambah') ?>" class="btn btn-primary">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
+                <?php } ?>
             </div>
         </div>
 
-        <?php if (session()->getFlashdata('tambah')): ?>
+        <?php if (session()->getFlashdata('tambah')) { ?>
         <div class="alert alert-success" role="alert">
             <?= session()->getFlashdata('tambah') ?>
         </div>
-        <?php endif; ?>
-        <?php if (session()->getFlashdata('ubah')): ?>
+        <?php } ?>
+        <?php if (session()->getFlashdata('ubah')) { ?>
         <div class="alert alert-success" role="alert">
             <?= session()->getFlashdata('ubah') ?>
         </div>
-        <?php endif; ?>
-        <?php if (session()->getFlashdata('hapus')): ?>
+        <?php }; ?>
+        <?php if (session()->getFlashdata('hapus')) { ?>
         <div class="alert alert-danger" role="alert">
             <?= session()->getFlashdata('hapus') ?>
         </div>
-        <?php endif; ?>
+        <?php } ?>
 
         <div class="card-body">
             <div class="table-responsive">
                 <table id="example2" class="table table-bordered table-sm">
                     <thead class="bg-primary text-center">
                         <tr>
-                            <th width="50px">No</th>
-                            <th>Kode Guru</th>
+                            <th width="20px">No</th>
+                            <th width="30px">Kode Guru</th>
                             <th>NIP</th>
                             <th>Nama Guru</th>
                             <th>Tanggal Lahir</th>
-                            <th>Jenis Kelamin</th>
+                            <th width="10px">Jenis Kelamin</th>
                             <th>Telepon Guru</th>
                             <th>Pendidikan</th>
                             <th>Jurusan</th>
                             <th>Foto</th>
-                            <th width="100px">Aksi</th>
+                            <?php if ($level === '1') { ?>
+                            <th width="70px">Aksi</th>
+                            <?php } ?>
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($guru as $key => $data): ?>
+                        <?php foreach ($guru as $key => $data) { ?>
                         <tr>
                             <td class="text-center"><?= $key + 1 ?></td>
                             <td><?= $data['kode_guru'] ?></td>
@@ -59,8 +63,12 @@
                                 <img src="<?= base_url('fotoguru/' . $data['foto_guru']) ?>" width="100px" height="auto"
                                     alt="Gambar Guru">
                             </td>
+                            <?php if ($level === '1') { ?>
                             <td class="text-center">
                                 <div class="btn-group">
+                                    <a href="<?= base_url('Guru/View/' . $data['id_guru']) ?>" class="btn btn-info">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
                                     <a href="<?= base_url('Guru/edit/' . $data['id_guru']) ?>" class="btn btn-warning">
                                         <i class="fas fa-edit"></i>
                                     </a>
@@ -69,10 +77,11 @@
                                         class="btn btn-danger">
                                         <i class="fas fa-trash"></i>
                                     </a>
+                                    <?php } ?>
                                 </div>
                             </td>
                         </tr>
-                        <?php endforeach; ?>
+                        <?php } ?>
                     </tbody>
                 </table>
             </div>

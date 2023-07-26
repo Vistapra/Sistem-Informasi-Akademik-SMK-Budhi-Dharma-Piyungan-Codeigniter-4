@@ -34,7 +34,6 @@ $routes->get('/', 'Home::index');
 $routes->get('form', 'Form::index');
 $routes->post('form', 'Form::index');
 $routes->get('logout', 'Auth::logout');
-
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -42,13 +42,13 @@ class Filters extends BaseConfig
             'FilterAdmin' => [
                 'except' => [
                     'Auth', 'Auth/*',
-                    'Home', 'Home/*',
                     'Jurusan', 'Jurusan/*',
                     'Kelas', 'Kelas/*',
                     'Mapel', 'Mapel/*',
                     'Berita', 'Berita/*',
                     'Siswa', 'Siswa/*',
                     'Guru', 'Guru/*',
+                    'Ekstrakurikuller', 'Ekstrakurikuller/*',
                 ]
                 ],
         ],

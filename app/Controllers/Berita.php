@@ -19,6 +19,7 @@ class Berita extends BaseController
             'judul' => 'Berita',
             'subjudul' => 'Data Berita',
             'page' => 'Berita/v_t_berita',
+            'level' => session()->get('level'),
             'berita' => $this->ModelBerita->AllData(),
         ];
 

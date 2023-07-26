@@ -91,6 +91,13 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="<?= base_url('Home/Berita') ?>">Berita</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?= base_url('Home/Guru') ?>">Guru</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="<?= base_url('Home/Ekstrakurikuller') ?>">Ekstrakurikuller</a>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>

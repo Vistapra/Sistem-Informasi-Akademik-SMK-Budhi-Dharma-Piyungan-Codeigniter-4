@@ -1,5 +1,5 @@
 <section id="page-banner" class="pt-10 pb-10 bg_cover" data-overlay="8"
-    style="background-image: url(images/page-banner-6.jpg)">
+    style="background-image: url(<?= base_url('gambarsekolah/sekolah2.jpg') ?>)">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

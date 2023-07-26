@@ -1,8 +1,8 @@
 <?php
 $images = [
-    "https://lh3.googleusercontent.com/p/AF1QipMDKZyppMX1_h9QST-D73MM6iXWtmYvRFwJWFh6=s1360-w1360-h1020",
-    "https://lh3.googleusercontent.com/p/AF1QipPyKyZdGvanLE0K9JEgMjfllKOoHGKWCI2631V-=s1360-w1360-h1020",
-    "https://lh3.googleusercontent.com/p/AF1QipNLKjubUAntKpFlGmOAa2ZBFos24MvYXFHEwIKV=s1360-w1360-h1020",
+    "gambarsekolah/sekolah1.jpg",
+    "gambarsekolah/sekolah2.jpg",
+    "gambarsekolah/sekolah3.jpg",
 ];
 ?>
 
@@ -14,6 +14,9 @@ $images = [
                 <div class="col-xl-7 col-lg-9">
                     <div class="slider-cont">
                         <h1 data-animation="bounceInLeft" data-delay="1s">SMK BUDHI DHARMA BOARDING SCHOOL PIYUNGAN</h1>
+                        <div class="button float-left">
+                            <a href="<?= base_url('Home/Berita') ?>" class="main-btn">Readmore</a>
+                        </div>
                     </div>
                 </div>
             </div>

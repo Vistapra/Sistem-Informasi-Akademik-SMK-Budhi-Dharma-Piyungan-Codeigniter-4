@@ -1,11 +1,19 @@
+<?php if (session()->getFlashdata('pesan')): ?>
+<div class="alert alert-success" role="alert">
+    <?= session()->getFlashdata('pesan') ?>
+</div>
+<?php endif; ?>
+
 <div class="col-md-12">
     <div class="card card-outline card-primary">
         <div class="card-header">
             <h3 class="card-title"><i class="fas fa-newspaper"></i> <?= $subjudul ?></h3>
             <div class="card-tools">
+                <?php if ($level === '1') { ?>
                 <a href="<?= base_url('Berita/tambah') ?>" class="btn btn-primary">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
+                <?php } ?>
             </div>
         </div>
 
@@ -52,6 +60,7 @@
                                     <a href="<?= base_url('Berita/View/' . $data['id_berita']) ?>" class="btn btn-info">
                                         <i class="fas fa-eye"></i>
                                     </a>
+                                    <?php if ($level === '1') { ?>
                                     <a href="<?= base_url('Berita/Edit/' . $data['id_berita']) ?>"
                                         class="btn btn-warning">
                                         <i class="fas fa-edit"></i>
@@ -61,6 +70,7 @@
                                         class="btn btn-danger">
                                         <i class="fas fa-trash"></i>
                                     </a>
+                                    <?php } ?>
                                 </div>
                             </td>
                         </tr>

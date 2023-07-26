@@ -55,6 +55,16 @@
             </div>
 
             <div class="form-group">
+                <label for="password">Password</label>
+                <input type="text" name="password" class="form-control" placeholder="Masukkan Password Guru" required>
+            </div>
+
+            <div class="form-group">
+                <label for="level"></label>
+                <input type="hidden" name="level" id="levelInput" class="form-control" required readonly>
+            </div>
+
+            <div class="form-group">
                 <label for="foto_guru">Foto Guru</label>
                 <input type="file" name="foto_guru" class="form-control" required>
             </div>
@@ -66,3 +76,8 @@
         <?= form_close() ?>
     </div>
 </div>
+
+<script>
+const levelInput = document.getElementById('levelInput');
+levelInput.value = '1';
+</script>

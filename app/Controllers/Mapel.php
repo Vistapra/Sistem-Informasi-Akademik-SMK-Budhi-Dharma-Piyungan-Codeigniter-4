@@ -20,6 +20,7 @@ class Mapel extends BaseController
             'judul' => 'Mata Pelajaran',
             'subjudul' => 'Data Mata Pelajaran',
             'page' => 'Mapel/v_t_mapel',
+            'level' => session()->get('level'),
             'mapel' => $this->ModelMapel->AllData(),
         ];
 

@@ -45,8 +45,12 @@
                 <input type="text" name="jurusan" class="form-control" value="<?= $guru['jurusan']; ?>" required>
             </div>
             <div class="form-group">
+                <label for="password">Password Guru</label>
+                <input type="text" name="password" class="form-control" value="<?= $guru['password']; ?>" required>
+            </div>
+            <div class="form-group">
                 <label for="foto_guru">Foto</label>
-                <input type="file" name="foto_guru" class="form-control-file" required>
+                <input type="file" name="foto_guru" class="form-control-file">
             </div>
         </div>
         <div class="card-footer">

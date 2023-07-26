@@ -19,6 +19,7 @@ class Kelas extends BaseController
             'judul' => 'Kelas',
             'subjudul' => 'Data Kelas',
             'page' => 'kelas/v_t_kelas',
+            'level' => session()->get('level'),
             'kelas' => $this->ModelKelas->AllData(),
         ];
 

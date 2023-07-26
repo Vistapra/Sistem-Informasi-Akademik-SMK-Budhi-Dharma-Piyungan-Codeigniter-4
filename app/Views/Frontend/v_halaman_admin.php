@@ -96,9 +96,15 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('') ?>" class="nav-link">
+                            <a href="<?= base_url('Siswa') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>Data Siswa</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?= base_url('Ekstrakurikuller') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>Data Ekstrakurikuller</p>
                             </a>
                         </li>
                     </ul>

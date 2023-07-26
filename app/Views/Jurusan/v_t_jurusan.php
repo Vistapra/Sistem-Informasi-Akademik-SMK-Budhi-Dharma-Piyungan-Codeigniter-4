@@ -3,9 +3,11 @@
         <div class="card-header">
             <h3 class="card-title"><?= $subjudul ?></h3>
             <div class="card-tools">
+                <?php if ($level === '1') { ?>
                 <a href="<?= base_url('Jurusan/Tambah') ?>" class="btn btn-primary">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
+                <?php } ?>
             </div>
         </div>
 
@@ -36,7 +38,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($jurusan as $key => $data): ?>
+                        <?php foreach ($jurusan as $key => $data){ ?>
                         <tr>
                             <td class="text-center"><?= $key + 1 ?></td>
                             <td><?= $data['kode_jurusan'] ?></td>
@@ -46,6 +48,7 @@
                                     <a href="<?= base_url('Jurusan/View/' . $data['id_jurusan']) ?>"
                                         class="btn btn-info">
                                         <i class="fas fa-eye"></i></a>
+                                    <?php if ($level === '1') { ?>
                                     <a href="<?= base_url('Jurusan/Edit/' . $data['id_jurusan']) ?>"
                                         class="btn btn-warning">
                                         <i class="fas fa-edit"></i></a>
@@ -53,10 +56,11 @@
                                         onclick="return confirm('Apakah Anda Yakin Ingin Menghapus Data Ini ?')"
                                         class="btn btn-danger">
                                         <i class="fas fa-trash"></i></a>
+                                    <?php } ?>
                                 </div>
                             </td>
                         </tr>
-                        <?php endforeach; ?>
+                        <?php } ?>
                     </tbody>
                 </table>
             </div>

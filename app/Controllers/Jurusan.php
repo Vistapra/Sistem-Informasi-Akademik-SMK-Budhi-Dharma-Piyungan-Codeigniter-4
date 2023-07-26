@@ -20,6 +20,7 @@ class Jurusan extends BaseController
             'judul' => 'Jurusan',
             'subjudul' => 'Data Jurusan',
             'page' => 'jurusan/v_t_jurusan',
+            'level' => session()->get('level'),
             'jurusan' => $this->ModelJurusan->AllData(),
         ];
 

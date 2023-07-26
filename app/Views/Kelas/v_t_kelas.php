@@ -3,9 +3,11 @@
         <div class="card-header">
             <h3 class="card-title"><?= $subjudul ?></h3>
             <div class="card-tools">
+                <?php if ($level === '1') { ?>
                 <a class="btn btn-primary" data-toggle="modal" data-target="#add">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
+                <?php } ?>
             </div>
         </div>
 
@@ -33,7 +35,9 @@
                     <tr class="text-center">
                         <th width="50px">No</th>
                         <th>Kelas</th>
+                        <?php if ($level === '1') { ?>
                         <th width="100px">Aksi</th>
+                        <?php } ?>
                     </tr>
                 </thead>
                 <tbody>
@@ -41,6 +45,7 @@
                     <tr>
                         <td class="text-center"><?= $key + 1 ?></td>
                         <td><?= $data['kelas'] ?></td>
+                        <?php if ($level === '1') { ?>
                         <td class="text-center">
                             <div class="btn-group">
                                 <a class="btn btn-warning" data-toggle="modal"
@@ -54,6 +59,7 @@
                                 </a>
                             </div>
                         </td>
+                        <?php } ?>
                     </tr>
                     <?php } ?>
                 </tbody>

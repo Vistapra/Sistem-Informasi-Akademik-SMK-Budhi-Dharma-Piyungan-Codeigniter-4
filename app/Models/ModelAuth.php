@@ -6,12 +6,21 @@ use CodeIgniter\Model;
 
 class ModelAuth extends Model
 {
-    protected $table = 'user';
+    protected $table = 'guru';
 
-    public function LoginUser($username, $password)
+    public function LoginGuru ($nip, $password)
     {
-        return $this->where('username', $username)
-            ->where('password', $password)
-            ->first();
+        return $this->where('nip', $nip)
+                    ->where('password', $password)
+                    ->get()
+                    ->getRowArray();
+    }
+    public function LoginSiswa($nisn, $password)
+    {
+        return $this->db->table('siswa')
+                        ->where('nisn', $nisn)
+                        ->where('password', $password)
+                        ->get()
+                        ->getRowArray();
     }
 }
