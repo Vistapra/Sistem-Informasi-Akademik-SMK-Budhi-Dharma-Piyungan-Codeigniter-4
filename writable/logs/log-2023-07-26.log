@@ -2696,3 +2696,1201 @@ INFO - 2023-07-26 16:58:00 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-07-26 16:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-07-26 16:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-07-26 16:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:25 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('/', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:25 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:25 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:26 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:26 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:26 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:26 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:27 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:27 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:27 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:27 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:27 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:28 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:28 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:28 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:28 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:28 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:29 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:29 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:29 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:30 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:31 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:31 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:31 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:31 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:31 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:32 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:32 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:32 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:32 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:32 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:32 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:33 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:33 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:33 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:33 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:33 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:34 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:34 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:34 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:34 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:34 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:35 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:35 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:35 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:35 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:35 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:41 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:41 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:41 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:41 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:25:42 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:56 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home/Guru', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:56 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:56 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:57 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:57 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:57 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:57 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:57 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:58 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:58 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:58 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:58 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:58 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:59 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:59 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:59 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:31:59 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:00 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:00 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:00 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:02 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:03 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home/Berita', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:03 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:03 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:03 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:04 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:04 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:04 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:04 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:04 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:05 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:05 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:05 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:05 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:06 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:06 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:06 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:06 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:07 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:07 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:07 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:07 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('/', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:08 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:08 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:08 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:08 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:09 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:09 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:09 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:09 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:32:10 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:17 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:18 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:18 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:18 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:18 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:18 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:19 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:19 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:19 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:20 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:20 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:20 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:20 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:20 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:21 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:21 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:21 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:21 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:21 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:22 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:23 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:23 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:23 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:24 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:24 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:24 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:24 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:24 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:25 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:25 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:25 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:25 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:25 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:26 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:26 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:26 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:26 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:27 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:27 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-26 17:41:27 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php on line 416.
+ 1 VENDORPATH\codeigniter4\framework\system\Debug\Toolbar.php(416): strpos(null, '<head>')
+ 2 VENDORPATH\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 3 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(517): CodeIgniter\Filters\Filters->run('Home', 'after')
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-26 17:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-26 17:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
