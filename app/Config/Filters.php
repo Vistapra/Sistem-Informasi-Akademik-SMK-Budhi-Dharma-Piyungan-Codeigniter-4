@@ -28,31 +28,43 @@ class Filters extends BaseConfig
      * List of filter aliases that are always
      * applied before and after every request.
      */
-    public array $globals = [
-        'before' => [
-            'FilterAdmin' => [
-                'except' => [
-                    'Auth', 'Auth/*',
-                    'Home', 'Home/*',
-                ]
-                ],
+    // Deklarasi array $globals yang merupakan konfigurasi filter sebelum dan sesudah pada suatu aplikasi atau sistem.
+public array $globals = [
+    // Filter yang diterapkan sebelum aliran program dijalankan.
+    'before' => [
+        // FilterAdmin adalah nama filter yang akan diterapkan.
+        'FilterAdmin' => [
+            // except adalah daftar pengecualian dari filter ini.
+            // Artinya, filter ini tidak akan diterapkan pada route yang terdaftar dalam daftar pengecualian.
+            'except' => [
+                'Home', 'Home/*', // Pengecualian untuk rute yang memiliki awalan 'Home/'.
+                'Auth', 'Auth/*', // Pengecualian untuk rute yang memiliki awalan 'Auth/'.
+            ]
         ],
-        'after' => [
-            'toolbar',
-            'FilterAdmin' => [
-                'except' => [
-                    'Auth', 'Auth/*',
-                    'Jurusan', 'Jurusan/*',
-                    'Kelas', 'Kelas/*',
-                    'Mapel', 'Mapel/*',
-                    'Berita', 'Berita/*',
-                    'Siswa', 'Siswa/*',
-                    'Guru', 'Guru/*',
-                    'Ekstrakurikuller', 'Ekstrakurikuller/*',
-                ]
-                ],
+    ],
+    // Filter yang diterapkan setelah aliran program dijalankan.
+    'after' => [
+        'toolbar', // Filter 'toolbar' akan diterapkan pada semua route tanpa pengecualian.
+        'FilterAdmin' => [
+            // except adalah daftar pengecualian dari filter ini.
+            // Artinya, filter ini tidak akan diterapkan pada route yang terdaftar dalam daftar pengecualian.
+            'except' => [
+                'Home', 'Home/*', // Pengecualian untuk rute yang memiliki awalan 'Home/'.
+                'Auth', 'Auth/*', // Pengecualian untuk rute yang memiliki awalan 'Auth/'.
+                'Home', 'Home/*', // Pengecualian untuk rute yang memiliki awalan 'Home/'.
+                'Jurusan', 'Jurusan/*', // Pengecualian untuk rute yang memiliki awalan 'Jurusan/'.
+                'Kelas', 'Kelas/*', // Pengecualian untuk rute yang memiliki awalan 'Kelas/'.
+                'Mapel', 'Mapel/*', // Pengecualian untuk rute yang memiliki awalan 'Mapel/'.
+                'Berita', 'Berita/*', // Pengecualian untuk rute yang memiliki awalan 'Berita/'.
+                'Siswa', 'Siswa/*', // Pengecualian untuk rute yang memiliki awalan 'Siswa/'.
+                'Nilai', 'Nilai/*', // Pengecualian untuk rute yang memiliki awalan 'Siswa/'.
+                'Guru', 'Guru/*', // Pengecualian untuk rute yang memiliki awalan 'Guru/'.
+                'Ekstrakurikuller', 'Ekstrakurikuller/*', // Pengecualian untuk rute yang memiliki awalan 'Ekstrakurikuller/'.
+            ]
         ],
-    ];
+    ],
+];
+
 
     /**
      * List of filter aliases that works on a

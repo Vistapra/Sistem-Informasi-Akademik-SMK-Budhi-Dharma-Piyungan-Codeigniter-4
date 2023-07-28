@@ -8,7 +8,13 @@ class ModelSiswa extends Model
 {
     public function AllData()
     {
-        return $this->db->table('siswa')->orderBy('nama_siswa', 'ASC')->get()->getResultArray();
+        return $this->db->table('siswa')
+            ->select('siswa.*, jurusan.jurusan, kelas.kelas')
+            ->join('jurusan', 'jurusan.id_jurusan = siswa.id_jurusan', 'left')
+            ->join('kelas', 'kelas.id_kelas = siswa.id_kelas', 'left')
+            ->orderBy('siswa.nama_siswa', 'ASC')
+            ->get()
+            ->getResultArray();
     }
 
     public function TambahData($data)
@@ -19,7 +25,12 @@ class ModelSiswa extends Model
     public function DetailData($id_siswa)
     {
         return $this->db->table('siswa')
-            ->where('id_siswa', $id_siswa)->get()->getRowArray();
+            ->select('siswa.*, jurusan.jurusan, kelas.kelas')
+            ->join('jurusan', 'jurusan.id_jurusan = siswa.id_jurusan', 'left')
+            ->join('kelas', 'kelas.id_kelas = siswa.id_kelas', 'left')
+            ->where('siswa.id_siswa', $id_siswa)
+            ->get()
+            ->getRowArray();
     }
 
     public function UbahData($id_siswa, $data)

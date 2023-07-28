@@ -38,14 +38,27 @@
             </div>
             <div class="form-group">
                 <label for="jurusan">Jurusan</label>
-                <input type="text" name="jurusan" class="form-control" placeholder="Masukkan Jurusan Siswa"
-                    value="<?= $siswa['jurusan']; ?>" required>
+                <select name="jurusan" class="form-control" required>
+                    <option value="">Pilih Jurusan</option>
+                    <?php foreach ($jurusan as $j): ?>
+                    <option value="<?= $j['id_jurusan'] ?>"
+                        <?= $j['id_jurusan'] === $siswa['jurusan'] ? 'selected' : '' ?>>
+                        <?= $j['jurusan'] ?>
+                    </option>
+                    <?php endforeach; ?>
+                </select>
             </div>
 
             <div class="form-group">
                 <label for="kelas">Kelas</label>
-                <input type="text" name="kelas" class="form-control" placeholder="Masukkan Nama Kelas"
-                    value="<?= $siswa['kelas']; ?>" required>
+                <select name="kelas" class="form-control" required>
+                    <option value="">Pilih Kelas</option>
+                    <?php foreach ($kelas as $k): ?>
+                    <option value="<?= $k['id_kelas'] ?>" <?= $k['id_kelas'] === $siswa['kelas'] ? 'selected' : '' ?>>
+                        <?= $k['kelas'] ?>
+                    </option>
+                    <?php endforeach; ?>
+                </select>
             </div>
 
             <div class="form-group">

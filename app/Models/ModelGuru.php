@@ -1,33 +1,47 @@
 <?php
+
 namespace App\Models;
 
 use CodeIgniter\Model;
 
 class ModelGuru extends Model
 {
+    protected $table = 'guru'; // Tambahkan definisi tabel
+
     public function AllData()
     {
-        return $this->db->table('guru')->orderBy('kode_guru', 'ASC')->get()->getResultArray();
+        return $this->db->table($this->table)
+            ->join('jurusan', 'guru.id_jurusan = jurusan.id_jurusan', 'left')
+            ->orderBy('guru.kode_guru', 'ASC')
+            ->get()
+            ->getResultArray();
     }
 
-    public function TambahData($data)
+    public function tambahData($data)
     {
-        return $this->db->table('guru')->insert($data);
+        return $this->db->table($this->table)->insert($data);
     }
 
-    public function DetailData($id_guru)
+    public function detailData($id_guru)
     {
-        return $this->db->table('guru')
-            ->where('id_guru', $id_guru)->get()->getRowArray();
+        return $this->db->table($this->table)
+            ->where('id_guru', $id_guru)
+            ->join('jurusan', 'guru.id_jurusan = jurusan.id_jurusan', 'left')
+            ->get()
+            ->getRowArray();
     }
 
-    public function UbahData($id_guru, $data)
+    public function ubahData($id_guru, $data)
     {
-        return $this->db->table('guru')->where('id_guru', $id_guru)->update($data);
+        return $this->db->table($this->table)
+            ->where('id_guru', $id_guru)
+            ->update($data);
     }
 
-    public function HapusData($id_guru)
+    public function hapusData($id_guru)
     {
-        return $this->db->table('guru')->where('id_guru', $id_guru)->delete();
+        return $this->db->table($this->table)
+            ->where('id_guru', $id_guru)
+            ->delete();
     }
 }

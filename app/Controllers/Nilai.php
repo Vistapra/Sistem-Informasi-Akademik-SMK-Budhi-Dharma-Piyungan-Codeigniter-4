@@ -1,0 +1,117 @@
+<?php
+
+namespace App\Controllers;
+
+use App\Controllers\BaseController;
+use App\Models\ModelNilai;
+use App\Models\ModelSiswa;
+use App\Models\ModelMapel;
+
+class Nilai extends BaseController
+{
+    protected $ModelNilai;
+    protected $ModelSiswa;
+    protected $ModelMapel;
+
+    public function __construct()
+    {
+        $this->ModelNilai = new ModelNilai();
+        $this->ModelSiswa = new ModelSiswa();
+        $this->ModelMapel = new ModelMapel();
+    }
+
+    public function index()
+    {
+        $data = [
+            'judul' => 'Nilai',
+            'subjudul' => 'Data Nilai',
+            'page' => 'Nilai/v_t_Nilai',
+            'level' => session()->get('level'),
+            'nilai' => $this->ModelNilai->AllData(),
+        ];
+
+        return view('Frontend/v_halaman_admin', $data);
+    }
+
+    public function Tambah()
+    {
+        $data = [
+            'judul' => 'Nilai',
+            'subjudul' => 'Tambah Nilai',
+            'page' => 'Nilai/v_tambah',
+            'siswa' => $this->ModelSiswa->AllData(), // Menambahkan data siswa ke view
+            'mapel' => $this->ModelMapel->AllData(), // Menambahkan data mapel ke view
+        ];
+
+        return view('Frontend/v_halaman_admin', $data);
+    }
+
+    public function Edit($id_nilai)
+    {
+        $data = [
+            'judul' => 'Nilai',
+            'subjudul' => 'Edit Nilai',
+            'page' => 'Nilai/v_edit',
+            'nilai' => $this->ModelNilai->DetailData($id_nilai),
+            'siswa' => $this->ModelSiswa->AllData(), // Menambahkan data siswa ke view
+            'mapel' => $this->ModelMapel->AllData(), // Menambahkan data mapel ke view
+        ];
+
+        return view('Frontend/v_halaman_admin', $data);
+    }
+
+    public function View($id_nilai)
+    {
+        $data = [
+            'judul' => 'Detail Nilai',
+            'subjudul' => '',
+            'page' => 'Nilai/v_view',
+            'nilai' => $this->ModelNilai->DetailData($id_nilai),
+        ];
+
+        return view('Frontend/v_halaman_admin', $data);
+    }
+
+    public function TambahData()
+    {
+        // Ambil data dari form tambah dan simpan dalam variabel $data
+        $data = [
+            'id_siswa' => $this->request->getPost('id_siswa'),
+            'id_mapel' => $this->request->getPost('id_mapel'),
+            'nilai_angka' => $this->request->getPost('nilai_angka'),
+            'nilai_huruf' => $this->request->getPost('nilai_huruf'),
+            'semester' => $this->request->getPost('semester'),
+            'tahun_akademik' => $this->request->getPost('tahun_akademik'),
+        ];
+
+        $this->ModelNilai->TambahData($data); // Panggil metode TambahData pada ModelNilai untuk menyimpan data
+        session()->setFlashdata('tambah', 'Data Berhasil Ditambahkan');
+        return redirect()->to('Nilai');
+    }
+
+    public function UbahData($id_nilai)
+    {
+        // Ambil data dari form ubah dan simpan dalam variabel $data
+        $data = [
+            'id_siswa' => $this->request->getPost('id_siswa'),
+            'id_mapel' => $this->request->getPost('id_mapel'),
+            'nilai_angka' => $this->request->getPost('nilai_angka'),
+            'nilai_huruf' => $this->request->getPost('nilai_huruf'),
+            'semester' => $this->request->getPost('semester'),
+            'tahun_akademik' => $this->request->getPost('tahun_akademik'),
+        ];
+
+        // Panggil metode UbahData pada ModelNilai untuk mengubah data
+        $this->ModelNilai->update($id_nilai, $data);
+
+        session()->setFlashdata('ubah', 'Data Berhasil Diubah');
+        return redirect()->to('Nilai');
+    }
+
+    public function HapusData($id_nilai)
+    {
+        $this->ModelNilai->HapusData($id_nilai); // Panggil metode HapusData pada ModelNilai untuk menghapus data
+        session()->setFlashdata('hapus', 'Data Berhasil Dihapus');
+        return redirect()->to('Nilai');
+    }
+}
