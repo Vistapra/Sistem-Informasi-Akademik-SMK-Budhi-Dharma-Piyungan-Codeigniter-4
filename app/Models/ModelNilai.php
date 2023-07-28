@@ -34,13 +34,13 @@ class ModelNilai extends Model
     }
 
     public function UbahData($data)
-    {
-        // Mengubah data di tabel 'nilai' berdasarkan 'id_nilai' yang diberikan
-        return $this->db
-            ->table('nilai')
-            ->where('id_nilai', $data['id_nilai']) // Memfilter hasil query berdasarkan 'id_nilai' yang diberikan
-            ->update($data); // Menggunakan metode 'update' dari CI4 Model untuk mengubah data
-    }
+{
+    return $this->db
+        ->table('nilai')
+        ->where('id_nilai', $data['id_nilai'])
+        ->update($data);
+}
+
 
     public function HapusData($id_nilai)
     {

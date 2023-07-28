@@ -1,14 +1,14 @@
 <div class="col-md-12">
     <div class="card card-outline card-primary">
         <div class="card-header">
-            <h3 class="card-title"><i class="fas fa-newspaper"></i> <?= $subjudul ?></h3>
+            <h3 class="card-title"><?= $subjudul ?></h3>
             <div class="card-tools">
                 <?php if ($level === '1') { ?>
-                <a href="<?= base_url('Siswa/Tambah') ?>" class="btn btn-primary">
+                <a href="<?= base_url('Jadwalpelajaran/Tambah') ?>" class="btn btn-primary">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
+                <?php } ?>
             </div>
-            <?php } ?>
         </div>
 
         <?php if (session()->getFlashdata('tambah')): ?>
@@ -32,53 +32,42 @@
                 <table id="example2" class="table table-bordered table-sm">
                     <thead class="bg-primary text-center">
                         <tr>
-                            <th width="20px">No</th>
-                            <th width="30px">NISN</th>
-                            <th>Nama Siswa</th>
-                            <th>Tempat Lahir</th>
-                            <th>Tanggal Lahir</th>
-                            <th width="10px">Jenis Kelamin</th>
-                            <th>Jurusan</th>
-                            <th>Kelas</th>
-                            <th>Foto</th>
+                            <th width="50px">No</th>
+                            <th>Nama Kelas</th>
+                            <th>Mata Pelajaran</th>
+                            <th>Nama Guru</th>
+                            <th>Hari</th>
+                            <th>Waktu Mulai</th>
+                            <th>Waktu Selesai</th>
                             <?php if ($level === '1') { ?>
-                            <th width="70px">Aksi</th>
+                            <th width="100px">Aksi</th>
                             <?php } ?>
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($siswa as $key => $data) { ?>
-                        <?php if ($data['nisn'] === $logged_in_nisn) { ?>
+                        <?php foreach ($jadwalpelajaran as $key => $data) { ?>
                         <tr>
                             <td class="text-center"><?= $key + 1 ?></td>
-                            <td><?= $data['nisn'] ?></td>
-                            <td><?= $data['nama_siswa'] ?></td>
-                            <td><?= $data['tempat_lahir'] ?></td>
-                            <td><?= $data['tgl_lahir'] ?></td>
-                            <td><?= $data['jk'] ?></td>
-                            <td><?= $data['jurusan'] ?></td>
                             <td><?= $data['kelas'] ?></td>
-                            <td class="text-center">
-                                <img src="<?= base_url('fotosiswa/' . $data['foto_siswa']) ?>" width="100px"
-                                    height="auto" alt="Gambar Siswa">
-                            </td>
-                            <?php if ($level === '1') { ?>
+                            <td><?= $data['mapel'] ?></td>
+                            <td><?= $data['nama_guru'] ?></td>
+                            <td><?= $data['hari'] ?></td>
+                            <td><?= $data['waktu_mulai'] ?></td>
+                            <td><?= $data['waktu_selesai'] ?></td>
                             <td class="text-center">
                                 <div class="btn-group">
-                                    <a href="<?= base_url('Siswa/edit/' . $data['id_siswa']) ?>"
+                                    <?php if ($level === '1') { ?>
+                                    <a href="<?= base_url('Jadwalpelajaran/Edit/' . $data['id_jadwal']) ?>"
                                         class="btn btn-warning">
-                                        <i class="fas fa-edit"></i>
-                                    </a>
-                                    <a href="<?= base_url('Siswa/hapusData/' . $data['id_siswa']) ?>"
+                                        <i class="fas fa-edit"></i></a>
+                                    <a href="<?= base_url('Jadwalpelajaran/HapusData/' . $data['id_jadwal']) ?>"
                                         onclick="return confirm('Apakah Anda Yakin Ingin Menghapus Data Ini ?')"
                                         class="btn btn-danger">
-                                        <i class="fas fa-trash"></i>
-                                    </a>
+                                        <i class="fas fa-trash"></i></a>
+                                    <?php } ?>
                                 </div>
                             </td>
-                            <?php } ?>
                         </tr>
-                        <?php } ?>
                         <?php } ?>
                     </tbody>
                 </table>

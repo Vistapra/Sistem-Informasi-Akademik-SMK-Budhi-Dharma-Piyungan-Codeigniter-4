@@ -26,6 +26,7 @@
             <?= session()->getFlashdata('hapus') ?>
         </div>
         <?php endif; ?>
+
         <div class="card-body">
             <div class="table-responsive">
                 <table id="example2" class="table table-bordered table-sm">
@@ -34,11 +35,12 @@
                             <th width="50px">No</th>
                             <th>Nama Siswa</th>
                             <th>Mata Pelajaran</th>
-                            <th>Nilai Angka</th>
-                            <th>Nilai Huruf</th>
+                            <th>Nilai</th>
                             <th>Semester</th>
                             <th>Tahun Akademik</th>
+                            <?php if ($level === '1') { ?>
                             <th width="100px">Aksi</th>
+                            <?php } ?>
                         </tr>
                     </thead>
                     <tbody>
@@ -48,13 +50,10 @@
                             <td><?= $data['nama_siswa']; ?></td>
                             <td><?= $data['mapel']; ?></td>
                             <td><?= $data['nilai_angka']; ?></td>
-                            <td><?= $data['nilai_huruf']; ?></td>
                             <td><?= $data['semester']; ?></td>
                             <td><?= $data['tahun_akademik']; ?></td>
                             <td class="text-center">
                                 <div class="btn-group">
-                                    <a href="<?= base_url('Nilai/View/' . $data['id_nilai']) ?>" class="btn btn-info">
-                                        <i class="fas fa-eye"></i></a>
                                     <?php if ($level === '1') { ?>
                                     <a href="<?= base_url('Nilai/Edit/' . $data['id_nilai']) ?>"
                                         class="btn btn-warning">

@@ -12,12 +12,14 @@ class Siswa extends BaseController
     protected $ModelSiswa;
     protected $ModelJurusan;
     protected $ModelKelas;
+    protected $logged_in_nisn; // Pindahkan variabel $logged_in_nisn ke dalam kelas
 
     public function __construct()
     {
         $this->ModelSiswa = new ModelSiswa();
         $this->ModelJurusan = new ModelJurusan();
         $this->ModelKelas = new ModelKelas();
+        $this->logged_in_nisn = session()->get('nisn'); // Gunakan $this->logged_in_nisn untuk mengakses variabel di dalam kelas
     }
 
     public function index()
@@ -28,6 +30,7 @@ class Siswa extends BaseController
             'page' => 'Siswa/v_t_siswa',
             'level' => session()->get('level'),
             'siswa' => $this->ModelSiswa->AllData(),
+            'logged_in_nisn' => $this->logged_in_nisn, // Gunakan $this->logged_in_nisn untuk mengirimkan nilai ke view
         ];
 
         return view('Frontend/v_halaman_admin', $data);

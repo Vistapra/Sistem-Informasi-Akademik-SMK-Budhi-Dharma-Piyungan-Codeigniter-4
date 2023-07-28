@@ -33,8 +33,10 @@
                     <thead class="bg-primary text-center">
                         <tr>
                             <th width="20px">No</th>
+                            <?php if ($level === '1') { ?>
                             <th width="30px">Kode Guru</th>
                             <th>NIP</th>
+                            <?php } ?>
                             <th>Nama Guru</th>
                             <th>Tanggal Lahir</th>
                             <th width="10px">Jenis Kelamin</th>
@@ -51,8 +53,10 @@
                         <?php foreach ($guru as $key => $data) { ?>
                         <tr>
                             <td class="text-center"><?= $key + 1 ?></td>
+                            <?php if ($level === '1') { ?>
                             <td><?= $data['kode_guru'] ?></td>
                             <td><?= $data['nip'] ?></td>
+                            <?php } ?>
                             <td><?= $data['nama_guru'] ?></td>
                             <td><?= $data['tgl_lahir'] ?></td>
                             <td><?= $data['jenis_kel'] ?></td>

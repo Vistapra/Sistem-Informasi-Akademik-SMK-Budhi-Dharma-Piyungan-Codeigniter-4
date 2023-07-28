@@ -60,6 +60,7 @@ public array $globals = [
                 'Nilai', 'Nilai/*', // Pengecualian untuk rute yang memiliki awalan 'Siswa/'.
                 'Guru', 'Guru/*', // Pengecualian untuk rute yang memiliki awalan 'Guru/'.
                 'Ekstrakurikuller', 'Ekstrakurikuller/*', // Pengecualian untuk rute yang memiliki awalan 'Ekstrakurikuller/'.
+                'Jadwalpelajaran', 'Jadwalpelajaran/*', // Pengecualian untuk rute yang memiliki awalan 'Ekstrakurikuller/'.
             ]
         ],
     ],
