@@ -83,12 +83,6 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('Guru') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-table"></i>
-                                <p>Data Guru</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
                             <a href="<?= base_url('Kelas') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>Data Kelas</p>
@@ -98,6 +92,12 @@
                             <a href="<?= base_url('Mapel') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>Data Mata Pelajaran</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?= base_url('Guru') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>Data Guru</p>
                             </a>
                         </li>
                         <li class="nav-item">

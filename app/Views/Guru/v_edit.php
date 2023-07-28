@@ -43,13 +43,13 @@
             <div class="form-group">
                 <label for="jurusan">Jurusan</label>
                 <select name="jurusan" class="form-control" required>
-                    <option value="">Pilih Jurusan</option>
-                    <?php foreach ($jurusan as $ubah): ?>
-                    <option value="<?= $ubah['id_jurusan'] ?>"
-                        <?= $ubah['id_jurusan'] === $guru['jurusan'] ? 'selected' : '' ?>>
-                        <?= $ubah['jurusan'] ?>
+                    <option value="" selected disabled>-- Pilih Jurusan --</option>
+                    <?php foreach ($jurusan as $j) { ?>
+                    <option value="<?= $j['id_jurusan']; ?>"
+                        <?= ($j['id_jurusan'] == $guru['id_jurusan']) ? 'selected' : ''; ?>>
+                        <?= $j['jurusan']; ?>
                     </option>
-                    <?php endforeach; ?>
+                    <?php } ?>
                 </select>
             </div>
             <div class="form-group">
