@@ -50,8 +50,8 @@ public array $globals = [
             // Artinya, filter ini tidak akan diterapkan pada route yang terdaftar dalam daftar pengecualian.
             'except' => [
                 'Home', 'Home/*', // Pengecualian untuk rute yang memiliki awalan 'Home/'.
-                'Auth', 'Auth/*', // Pengecualian untuk rute yang memiliki awalan 'Auth/'.
-                'Home', 'Home/*', // Pengecualian untuk rute yang memiliki awalan 'Home/'.
+                'Dashboard', 'Dashboard/*', // Pengecualian untuk rute yang memiliki awalan 'Home/'.
+                'Auth', 'Auth/*', // Pengecualian untuk rute yang memiliki awalan 'Home/'.
                 'Jurusan', 'Jurusan/*', // Pengecualian untuk rute yang memiliki awalan 'Jurusan/'.
                 'Kelas', 'Kelas/*', // Pengecualian untuk rute yang memiliki awalan 'Kelas/'.
                 'Mapel', 'Mapel/*', // Pengecualian untuk rute yang memiliki awalan 'Mapel/'.

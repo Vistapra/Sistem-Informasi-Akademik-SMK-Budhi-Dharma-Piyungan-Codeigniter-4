@@ -48,7 +48,6 @@
                     </thead>
                     <tbody>
                         <?php foreach ($siswa as $key => $data) { ?>
-                        <?php if ($data['nisn'] === $logged_in_nisn) { ?>
                         <tr>
                             <td class="text-center"><?= $key + 1 ?></td>
                             <td><?= $data['nisn'] ?></td>
@@ -65,6 +64,9 @@
                             <?php if ($level === '1') { ?>
                             <td class="text-center">
                                 <div class="btn-group">
+                                    <a href="<?= base_url('Siswa/View/' . $data['id_siswa']) ?>" class="btn btn-info">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
                                     <a href="<?= base_url('Siswa/edit/' . $data['id_siswa']) ?>"
                                         class="btn btn-warning">
                                         <i class="fas fa-edit"></i>
@@ -78,7 +80,6 @@
                             </td>
                             <?php } ?>
                         </tr>
-                        <?php } ?>
                         <?php } ?>
                     </tbody>
                 </table>

@@ -8,7 +8,9 @@ class ModelEkstrakurikuller extends Model
 {
     public function AllData()
     {
-        return $this->db->table('ekstra')->orderBy('nama_ekstra', 'ASC')->get()->getResultArray();
+        return $this->db->table('ekstra')
+        ->join('guru', 'ekstra.id_guru = guru.id_guru', 'left')
+        ->orderBy('nama_ekstra', 'ASC')->get()->getResultArray();
     }
 
     public function TambahData($data)
@@ -19,6 +21,7 @@ class ModelEkstrakurikuller extends Model
     public function DetailData($id_ekstra)
     {
         return $this->db->table('ekstra')
+            ->join('guru', 'ekstra.id_guru = guru.id_guru', 'left')
             ->where('id_ekstra', $id_ekstra)->get()->getRowArray();
     }
 

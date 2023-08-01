@@ -36,7 +36,7 @@
     <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap4.min.js"></script>
 </head>
 
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-collapse sidebar-mini">
     <div class="wrapper">
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
             <ul class="navbar-nav">
@@ -58,14 +58,28 @@
             </ul>
         </nav>
         <aside class="main-sidebar sidebar-light-primary elevation-4">
-            <a href="<?= base_url('Berita') ?>" class="brand-link text-center">
+            <a href="#" class="brand-link text-center">
                 <span class="brand-text font-weight-bold">SISBUDHI</span>
             </a>
             <div class="sidebar">
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-                        data-accordion="false">
+                        <?php if (session()->get('level') == 1): ?> data-accordion="false">
                         <li class="nav-item">
+                            <a href="<?= base_url('Dashboard') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-newspaper"></i>
+                                <p>Dashboard Guru</p>
+                            </a>
+                        </li>
+                        <?php elseif (session()->get('level') == 2): ?>
+                        <li class="nav-item">
+                            <a href="<?= base_url('Dashboard') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-newspaper"></i>
+                                <p>Dashboard Siswa</p>
+                            </a>
+                        </li>
+                        <?php endif; ?>
+                        <!-- <li class="nav-item">
                             <a href="<?= base_url('Berita') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>Berita</p>
@@ -76,6 +90,7 @@
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>Ekstrakurikuller</p>
                             </a>
+                        </li>
                         <li class="nav-item">
                             <a href="<?= base_url('Jurusan') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
@@ -117,8 +132,7 @@
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>Data Nilai</p>
                             </a>
-                        </li>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
             </div>

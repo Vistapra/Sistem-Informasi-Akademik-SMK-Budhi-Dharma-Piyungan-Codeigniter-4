@@ -19,7 +19,6 @@ class Nilai extends BaseController
         $this->ModelNilai = new ModelNilai();
         $this->ModelSiswa = new ModelSiswa();
         $this->ModelMapel = new ModelMapel();
-        $this->logged_in_nisn = session()->get('nisn');
     }
 
     public function index()
@@ -30,7 +29,6 @@ class Nilai extends BaseController
             'page' => 'Nilai/v_t_Nilai',
             'level' => session()->get('level'),
             'nilai' => $this->ModelNilai->AllData(),
-            'logged_in_nisn' => $this->logged_in_nisn,
         ];
 
         return view('Frontend/v_halaman_admin', $data);

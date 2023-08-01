@@ -31,7 +31,7 @@
 
             <?php if (!empty($berita['gambar']) && file_exists('gambarberita/' . $berita['gambar'])) { ?>
             <strong>Gambar berita:</strong><br>
-            <img src="<?= base_url('gambarberita/' . $berita['gambar']) ?>" style="width: 100%; height: auto;"
+            <img src="<?= base_url('gambarberita/' . $berita['gambar']) ?>" style="width: auto; height: auto;"
                 alt="Gambar Berita">
             <?php } ?>
 

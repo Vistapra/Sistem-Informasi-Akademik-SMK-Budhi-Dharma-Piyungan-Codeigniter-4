@@ -41,7 +41,7 @@ class ModelJadwalpelajaran extends Model
         return $this->db
             ->table('jadwalpelajaran')
             ->where('id_jadwal', $data['id_jadwal']) // Memfilter hasil query berdasarkan 'id_jadwal' yang diberikan
-            ->update($data); // Menggunakan metode 'update' dari CI4 Model untuk mengubah data
+            ->update($data);
     }
 
     public function HapusData($id_jadwal)

@@ -30,7 +30,6 @@ class Siswa extends BaseController
             'page' => 'Siswa/v_t_siswa',
             'level' => session()->get('level'),
             'siswa' => $this->ModelSiswa->AllData(),
-            'logged_in_nisn' => $this->logged_in_nisn, // Gunakan $this->logged_in_nisn untuk mengirimkan nilai ke view
         ];
 
         return view('Frontend/v_halaman_admin', $data);
@@ -62,6 +61,17 @@ class Siswa extends BaseController
 
         return view('Frontend/v_halaman_admin', $data);
     }
+    public function View($id_siswa)
+{
+    $data = [
+        'judul' => 'Siswa',
+        'subjudul' => 'Detail Siswa',
+        'page' => 'Siswa/v_view',
+        'siswa' => $this->ModelSiswa->DetailData($id_siswa), // Make sure DetailData() returns an array
+    ];
+
+    return view('Frontend/v_halaman_admin', $data);
+}
 
     public function TambahData()
     {
@@ -77,8 +87,8 @@ class Siswa extends BaseController
                 'tempat_lahir' => $this->request->getPost('tempat_lahir'),
                 'tgl_lahir' => $this->request->getPost('tgl_lahir'),
                 'jk' => $this->request->getPost('jk'),
-                'id_jurusan' => $this->request->getPost('jurusan'), // Perubahan: Menggunakan id_jurusan dari POST data
-                'id_kelas' => $this->request->getPost('kelas'), // Perubahan: Menggunakan id_kelas dari POST data
+                'id_jurusan' => $this->request->getPost('jurusan'),
+                'id_kelas' => $this->request->getPost('kelas'),
                 'password' => $this->request->getPost('password'),
                 'level' => $this->request->getPost('level'),
                 'foto_siswa' => $randomName,

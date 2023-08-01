@@ -8,7 +8,10 @@ class ModelBerita extends Model
     protected $table = 'berita';
     public function AllData()
     {
-        return $this->db->table('berita')->get()->getResultArray();
+        return $this->db
+        ->table('berita')
+        ->get()
+        ->getResultArray();
     }
     public function TambahData($data)
     {

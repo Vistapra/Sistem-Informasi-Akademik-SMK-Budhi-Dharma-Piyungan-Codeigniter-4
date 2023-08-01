@@ -32,7 +32,6 @@ class ModelSiswa extends Model
             ->get()
             ->getRowArray();
     }
-
     public function UbahData($id_siswa, $data)
     {
         return $this->db->table('siswa')->where('id_siswa', $id_siswa)->update($data);

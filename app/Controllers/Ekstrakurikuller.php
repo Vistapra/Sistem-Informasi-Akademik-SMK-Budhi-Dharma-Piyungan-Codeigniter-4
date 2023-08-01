@@ -4,14 +4,17 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\ModelEkstrakurikuller;
+use App\Models\ModelGuru;
 
 class Ekstrakurikuller extends BaseController
 {
     protected $ModelEkstrakurikuller;
+    protected $ModelGuru;
 
     public function __construct()
     {
         $this->ModelEkstrakurikuller = new ModelEkstrakurikuller();
+        $this->ModelGuru = new ModelGuru();
     }
 
     public function index()
@@ -34,6 +37,7 @@ class Ekstrakurikuller extends BaseController
             'subjudul' => 'Tambah Ekstrakurikuller',
             'page' => 'Ekstrakurikuller/v_tambah',
             'ekstra' => $this->ModelEkstrakurikuller->AllData(),
+            'guru' => $this->ModelGuru->AllData(),
         ];
 
         return view('Frontend/v_halaman_admin', $data);
@@ -46,6 +50,7 @@ class Ekstrakurikuller extends BaseController
             'subjudul' => 'Edit Ekstrakurikuller',
             'page' => 'Ekstrakurikuller/v_edit',
             'ekstra' => $this->ModelEkstrakurikuller->DetailData($id_ekstra),
+            'guru' => $this->ModelGuru->AllData(),
         ];
 
         return view('Frontend/v_halaman_admin', $data);
@@ -72,6 +77,7 @@ class Ekstrakurikuller extends BaseController
 
             $data = [
                 'nama_ekstra' => $this->request->getPost('nama_ekstra'),
+                'id_guru' => $this->request->getPost('id_guru'),
                 'deskripsi' => $this->request->getPost('deskripsi'),
                 'guru_pembimbing' => $this->request->getPost('guru_pembimbing'),
                 'jadwal_kegiatan' => $this->request->getPost('jadwal_kegiatan'),
@@ -91,6 +97,7 @@ class Ekstrakurikuller extends BaseController
         $data = [
             'id_ekstra' => $id_ekstra,
             'nama_ekstra' => $this->request->getPost('nama_ekstra'),
+            'id_guru' => $this->request->getPost('id_guru'),
             'deskripsi' => $this->request->getPost('deskripsi'),
             'guru_pembimbing' => $this->request->getPost('guru_pembimbing'),
             'jadwal_kegiatan' => $this->request->getPost('jadwal_kegiatan'),

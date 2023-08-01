@@ -68,12 +68,12 @@ class Jadwalpelajaran extends BaseController
     public function TambahData()
     {
         $data = [
-            'id_kelas' => $this->request->getPost('id_kelas'), // Assuming you have a form field named 'id_kelas'
-            'id_mapel' => $this->request->getPost('id_mapel'), // Assuming you have a form field named 'id_mapel'
-            'id_guru' => $this->request->getPost('id_guru'), // Assuming you have a form field named 'id_guru'
-            'hari' => $this->request->getPost('hari'), // Assuming you have a form field named 'hari'
-            'waktu_mulai' => $this->request->getPost('waktu_mulai'), // Assuming you have a form field named 'waktu_mulai'
-            'waktu_selesai' => $this->request->getPost('waktu_selesai'), // Assuming you have a form field named 'waktu_selesai'
+            'id_kelas' => $this->request->getPost('id_kelas'),
+            'id_mapel' => $this->request->getPost('id_mapel'),
+            'id_guru' => $this->request->getPost('id_guru'),
+            'hari' => $this->request->getPost('hari'),
+            'waktu_mulai' => $this->request->getPost('waktu_mulai'),
+            'waktu_selesai' => $this->request->getPost('waktu_selesai'),
         ];
 
         $this->ModelJadwalpelajaran->TambahData($data);

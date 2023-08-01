@@ -38,8 +38,8 @@ class Auth extends BaseController
                     'logged_in' => TRUE
                 ];
                 session()->set($data);
-                session()->setFlashdata('pesan', 'Anda Login Sebagai Guru');
-                return redirect()->to('Berita');
+                session()->setFlashdata('pesan', 'Anda Login Sebagai ');
+                return redirect()->to('Dashboard');
             } else {
                 session()->setFlashdata('pesan', 'NIP atau Password Salah');
                 return redirect()->to('Auth');
@@ -54,15 +54,12 @@ class Auth extends BaseController
                     'logged_in' => TRUE
                 ];
                 session()->set($data);
-                session()->setFlashdata('pesan', 'Anda Login Sebagai Siswa');
-                return redirect()->to('Berita');
+                session()->setFlashdata('pesan', 'Anda Login Sebagai ');
+                return redirect()->to('Dashboard');
             } else {
                 session()->setFlashdata('pesan', 'NISN atau Password Salah');
                 return redirect()->to('Auth');
             }
-        } else {
-            session()->setFlashdata('pesan', 'Username atau Password Salah');
-            return redirect()->to('Auth');
         }
     }
 

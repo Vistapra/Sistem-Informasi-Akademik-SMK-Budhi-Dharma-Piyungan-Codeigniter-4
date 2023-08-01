@@ -1,0 +1,902 @@
+INFO - 2023-07-31 12:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 12:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:49:06 --> Undefined variable $guru_pembimbing
+in APPPATH\Views\Ekstrakurikuller\v_tambah.php on line 26.
+ 1 APPPATH\Views\Ekstrakurikuller\v_tambah.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru_pembimbing', 'C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Ekstrakurikuller\\v_tambah.php', 26)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Ekstrakurikuller\\v_tambah.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Ekstrakurikuller/v_tambah', [], true)
+ 5 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Ekstrakurikuller/v_tambah')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 7 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 9 APPPATH\Controllers\Ekstrakurikuller.php(39): view('Frontend/v_halaman_admin', [...])
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+12 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:49:23 --> Undefined variable $guru
+in APPPATH\Views\Ekstrakurikuller\v_tambah.php on line 26.
+ 1 APPPATH\Views\Ekstrakurikuller\v_tambah.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Ekstrakurikuller\\v_tambah.php', 26)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Ekstrakurikuller\\v_tambah.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Ekstrakurikuller/v_tambah', [], true)
+ 5 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Ekstrakurikuller/v_tambah')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 7 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 9 APPPATH\Controllers\Ekstrakurikuller.php(39): view('Frontend/v_halaman_admin', [...])
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+12 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:49:49 --> You must set the database table to be used with your query.
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 883.
+ 1 VENDORPATH\codeigniter4\framework\system\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Ekstrakurikuller.php(37): CodeIgniter\Model->__call('AllDataGuru', [])
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:51:29 --> You must set the database table to be used with your query.
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 883.
+ 1 VENDORPATH\codeigniter4\framework\system\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Ekstrakurikuller.php(37): CodeIgniter\Model->__call('AllDataGuru', [])
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:51:30 --> You must set the database table to be used with your query.
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 883.
+ 1 VENDORPATH\codeigniter4\framework\system\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Ekstrakurikuller.php(37): CodeIgniter\Model->__call('AllDataGuru', [])
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:51:34 --> You must set the database table to be used with your query.
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 883.
+ 1 VENDORPATH\codeigniter4\framework\system\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Ekstrakurikuller.php(37): CodeIgniter\Model->__call('AllDataGuru', [])
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:52:21 --> You must set the database table to be used with your query.
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 883.
+ 1 VENDORPATH\codeigniter4\framework\system\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Ekstrakurikuller.php(37): CodeIgniter\Model->__call('AllDataGuru', [])
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 13:53:33 --> mysqli_sql_exception: Unknown column 'jadwalpelajaran.id_guru' in 'on clause' in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelEkstrakurikuller.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Ekstrakurikuller.php(24): App\Models\ModelEkstrakurikuller->AllData()
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->index()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 13:53:33 --> Unknown column 'jadwalpelajaran.id_guru' in 'on clause'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 295.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC', [], false)
+ 5 APPPATH\Models\ModelEkstrakurikuller.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Ekstrakurikuller.php(24): App\Models\ModelEkstrakurikuller->AllData()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->index()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 13:53:34 --> mysqli_sql_exception: Unknown column 'jadwalpelajaran.id_guru' in 'on clause' in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelEkstrakurikuller.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Ekstrakurikuller.php(36): App\Models\ModelEkstrakurikuller->AllData()
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 13:53:34 --> Unknown column 'jadwalpelajaran.id_guru' in 'on clause'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 295.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC', [], false)
+ 5 APPPATH\Models\ModelEkstrakurikuller.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Ekstrakurikuller.php(36): App\Models\ModelEkstrakurikuller->AllData()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 13:53:35 --> mysqli_sql_exception: Unknown column 'jadwalpelajaran.id_guru' in 'on clause' in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelEkstrakurikuller.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Ekstrakurikuller.php(24): App\Models\ModelEkstrakurikuller->AllData()
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->index()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 13:53:35 --> Unknown column 'jadwalpelajaran.id_guru' in 'on clause'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 295.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC', [], false)
+ 5 APPPATH\Models\ModelEkstrakurikuller.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Ekstrakurikuller.php(24): App\Models\ModelEkstrakurikuller->AllData()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->index()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 13:53:38 --> mysqli_sql_exception: Unknown column 'jadwalpelajaran.id_guru' in 'on clause' in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelEkstrakurikuller.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Ekstrakurikuller.php(24): App\Models\ModelEkstrakurikuller->AllData()
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->index()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 13:53:38 --> Unknown column 'jadwalpelajaran.id_guru' in 'on clause'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 295.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ekstra`
+LEFT JOIN `guru` ON `jadwalpelajaran`.`id_guru` = `guru`.`id_guru`
+ORDER BY `nama_ekstra` ASC', [], false)
+ 5 APPPATH\Models\ModelEkstrakurikuller.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Ekstrakurikuller.php(24): App\Models\ModelEkstrakurikuller->AllData()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->index()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:54:12 --> You must set the database table to be used with your query.
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 883.
+ 1 VENDORPATH\codeigniter4\framework\system\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Ekstrakurikuller.php(37): CodeIgniter\Model->__call('AllDataGuru', [])
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:57:54 --> You must set the database table to be used with your query.
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 883.
+ 1 VENDORPATH\codeigniter4\framework\system\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Ekstrakurikuller.php(40): CodeIgniter\Model->__call('AllDataGuru', [])
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:58:56 --> Call to undefined method App\Models\ModelGuru::AllDataGuru
+in VENDORPATH\codeigniter4\framework\system\Model.php on line 838.
+ 1 APPPATH\Controllers\Ekstrakurikuller.php(40): CodeIgniter\Model->__call('AllDataGuru', [])
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 13:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 13:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 13:58:59 --> Call to undefined method App\Models\ModelGuru::AllDataGuru
+in VENDORPATH\codeigniter4\framework\system\Model.php on line 838.
+ 1 APPPATH\Controllers\Ekstrakurikuller.php(40): CodeIgniter\Model->__call('AllDataGuru', [])
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Tambah()
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 14:13:55 --> Undefined variable $jadwalpelajaran
+in APPPATH\Views\Ekstrakurikuller\v_edit.php on line 30.
+ 1 APPPATH\Views\Ekstrakurikuller\v_edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwalpelajaran', 'C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Ekstrakurikuller\\v_edit.php', 30)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Ekstrakurikuller\\v_edit.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Ekstrakurikuller/v_edit', [], true)
+ 5 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Ekstrakurikuller/v_edit')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 7 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 9 APPPATH\Controllers\Ekstrakurikuller.php(56): view('Frontend/v_halaman_admin', [...])
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->Edit('4')
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+12 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 14:14:39 --> unlink(fotoekstra/futsal.jpg): No such file or directory
+in APPPATH\Controllers\Ekstrakurikuller.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(fotoekstra/futsal.jpg): No such file or directory', 'C:\\xampp\\htdocs\\sisbudhi\\app\\Controllers\\Ekstrakurikuller.php', 111)
+ 2 APPPATH\Controllers\Ekstrakurikuller.php(111): unlink('fotoekstra/futsal.jpg')
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Ekstrakurikuller->UbahData('4')
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ekstrakurikuller))
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 14:37:30 --> Undefined variable $data_siswa
+in APPPATH\Views\Siswa\v_view.php on line 27.
+ 1 APPPATH\Views\Siswa\v_view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_siswa', 'C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Siswa\\v_view.php', 27)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Siswa\\v_view.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Siswa/v_view', [], true)
+ 5 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Siswa/v_view')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 7 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 9 APPPATH\Controllers\Siswa.php(74): view('Frontend/v_halaman_admin', [...])
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->View('7')
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+12 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 14:38:35 --> Cannot access offset of type string on string
+in APPPATH\Views\Siswa\v_view.php on line 30.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Siswa/v_view', [], true)
+ 4 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Siswa/v_view')
+ 5 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 8 APPPATH\Controllers\Siswa.php(74): view('Frontend/v_halaman_admin', [...])
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->View('7')
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 14:41:17 --> Cannot access offset of type string on string
+in APPPATH\Views\Siswa\v_view.php on line 29.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Siswa/v_view', [], true)
+ 4 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Siswa/v_view')
+ 5 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 8 APPPATH\Controllers\Siswa.php(73): view('Frontend/v_halaman_admin', [...])
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->View('7')
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 14:42:01 --> Cannot access offset of type string on string
+in APPPATH\Views\Siswa\v_view.php on line 29.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Siswa/v_view', [], true)
+ 4 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Siswa/v_view')
+ 5 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 8 APPPATH\Controllers\Siswa.php(73): view('Frontend/v_halaman_admin', [...])
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->View('7')
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 14:42:34 --> Cannot access offset of type string on string
+in APPPATH\Views\Siswa\v_view.php on line 29.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Siswa/v_view', [], true)
+ 4 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Siswa/v_view')
+ 5 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 8 APPPATH\Controllers\Siswa.php(73): view('Frontend/v_halaman_admin', [...])
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->View('7')
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 14:45:43 --> Cannot access offset of type string on string
+in APPPATH\Views\Siswa\v_view.php on line 13.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Siswa/v_view', [], true)
+ 4 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Siswa/v_view')
+ 5 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 8 APPPATH\Controllers\Siswa.php(73): view('Frontend/v_halaman_admin', [...])
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->View('7')
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 14:46:26 --> Cannot access offset of type string on string
+in APPPATH\Views\Siswa\v_view.php on line 13.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Siswa/v_view', [], true)
+ 4 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Siswa/v_view')
+ 5 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 8 APPPATH\Controllers\Siswa.php(73): view('Frontend/v_halaman_admin', [...])
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->View('7')
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 14:54:49 --> Undefined variable $nama_siswa
+in APPPATH\Views\Siswa\v_view.php on line 11.
+ 1 APPPATH\Views\Siswa\v_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_siswa', 'C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Siswa\\v_view.php', 11)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Siswa\\v_view.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Siswa/v_view', [], true)
+ 5 APPPATH\Views\Frontend\v_halaman_admin.php(138): view('Siswa/v_view')
+ 6 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\sisbudhi\\app\\Views\\Frontend\\v_halaman_admin.php')
+ 7 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Frontend/v_halaman_admin', [], true)
+ 9 APPPATH\Controllers\Siswa.php(73): view('Frontend/v_halaman_admin', [...])
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->View('7')
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+12 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 14:58:16 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ja...', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelJadwalpelajaran.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Jadwalpelajaran.php(79): App\Models\ModelJadwalpelajaran->TambahData(Array)
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Jadwalpelajaran->TambahData()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalpelajaran))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 14:58:16 --> Duplicate entry '0' for key 'PRIMARY'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 295.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'55\', \'3\', \'1\', \'Rabu\', \'09:00\', \'12:00\')', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'55\', \'3\', \'1\', \'Rabu\', \'09:00\', \'12:00\')')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'55\', \'3\', \'1\', \'Rabu\', \'09:00\', \'12:00\')')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (:id_kelas:, :id_mapel:, :id_guru:, :hari:, :waktu_mulai:, :waktu_selesai:)', [...], false)
+ 5 APPPATH\Models\ModelJadwalpelajaran.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Jadwalpelajaran.php(79): App\Models\ModelJadwalpelajaran->TambahData([...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Jadwalpelajaran->TambahData()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalpelajaran))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 14:58:41 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ja...', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelJadwalpelajaran.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Jadwalpelajaran.php(79): App\Models\ModelJadwalpelajaran->TambahData(Array)
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Jadwalpelajaran->TambahData()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalpelajaran))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 14:58:41 --> Duplicate entry '0' for key 'PRIMARY'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 295.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'54\', \'4\', \'2\', \'Senin\', \'09:00\', \'10:00\')', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'54\', \'4\', \'2\', \'Senin\', \'09:00\', \'10:00\')')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'54\', \'4\', \'2\', \'Senin\', \'09:00\', \'10:00\')')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (:id_kelas:, :id_mapel:, :id_guru:, :hari:, :waktu_mulai:, :waktu_selesai:)', [...], false)
+ 5 APPPATH\Models\ModelJadwalpelajaran.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Jadwalpelajaran.php(79): App\Models\ModelJadwalpelajaran->TambahData([...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Jadwalpelajaran->TambahData()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalpelajaran))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 14:58:57 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ja...', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelJadwalpelajaran.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Jadwalpelajaran.php(79): App\Models\ModelJadwalpelajaran->TambahData(Array)
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Jadwalpelajaran->TambahData()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalpelajaran))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 14:58:57 --> Duplicate entry '0' for key 'PRIMARY'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 295.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'54\', \'4\', \'2\', \'Senin\', \'09:12\', \'10:12\')', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'54\', \'4\', \'2\', \'Senin\', \'09:12\', \'10:12\')')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'54\', \'4\', \'2\', \'Senin\', \'09:12\', \'10:12\')')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (:id_kelas:, :id_mapel:, :id_guru:, :hari:, :waktu_mulai:, :waktu_selesai:)', [...], false)
+ 5 APPPATH\Models\ModelJadwalpelajaran.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Jadwalpelajaran.php(79): App\Models\ModelJadwalpelajaran->TambahData([...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Jadwalpelajaran->TambahData()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalpelajaran))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 14:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 14:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 14:59:17 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ja...', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelJadwalpelajaran.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Jadwalpelajaran.php(79): App\Models\ModelJadwalpelajaran->TambahData(Array)
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Jadwalpelajaran->TambahData()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalpelajaran))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 14:59:17 --> Duplicate entry '0' for key 'PRIMARY'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 295.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'58\', \'2\', \'1\', \'Rabu\', \'12:33\', \'12:23\')', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'58\', \'2\', \'1\', \'Rabu\', \'12:33\', \'12:23\')')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'58\', \'2\', \'1\', \'Rabu\', \'12:33\', \'12:23\')')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (:id_kelas:, :id_mapel:, :id_guru:, :hari:, :waktu_mulai:, :waktu_selesai:)', [...], false)
+ 5 APPPATH\Models\ModelJadwalpelajaran.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Jadwalpelajaran.php(79): App\Models\ModelJadwalpelajaran->TambahData([...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Jadwalpelajaran->TambahData()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalpelajaran))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 15:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 15:00:40 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ja...', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelJadwalpelajaran.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Jadwalpelajaran.php(79): App\Models\ModelJadwalpelajaran->TambahData(Array)
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Jadwalpelajaran->TambahData()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalpelajaran))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 15:00:40 --> Duplicate entry '0' for key 'PRIMARY'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 295.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'52\', \'2\', \'2\', \'Selasa\', \'12:33\', \'23:13\')', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'52\', \'2\', \'2\', \'Selasa\', \'12:33\', \'23:13\')')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (\'52\', \'2\', \'2\', \'Selasa\', \'12:33\', \'23:13\')')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jadwalpelajaran` (`id_kelas`, `id_mapel`, `id_guru`, `hari`, `waktu_mulai`, `waktu_selesai`) VALUES (:id_kelas:, :id_mapel:, :id_guru:, :hari:, :waktu_mulai:, :waktu_selesai:)', [...], false)
+ 5 APPPATH\Models\ModelJadwalpelajaran.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Jadwalpelajaran.php(79): App\Models\ModelJadwalpelajaran->TambahData([...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Jadwalpelajaran->TambahData()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalpelajaran))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 15:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 15:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 16:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 16:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 16:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 16:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 16:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 16:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 16:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 16:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 16:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 16:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 19:11:59 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sisbudhi', 3306, '', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sisbudhi\app\Models\ModelAuth.php(15): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sisbudhi\app\Controllers\Auth.php(32): App\Models\ModelAuth->LoginGuru('19112625', 'guru')
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->cekLogin()
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelAuth.php(15): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Auth.php(32): App\Models\ModelAuth->LoginGuru('19112625', 'guru')
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->cekLogin()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 19:11:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 427.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `guru`
+WHERE `nip` = :nip:
+AND `password` = :password:', [...], false)
+ 3 VENDORPATH\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\ModelAuth.php(15): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Auth.php(32): App\Models\ModelAuth->LoginGuru('19112625', 'guru')
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->cekLogin()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 19:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 19:12:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sisbudhi', 3306, '', 0)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sisbudhi\app\Models\ModelAuth.php(15): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sisbudhi\app\Controllers\Auth.php(32): App\Models\ModelAuth->LoginGuru('19112625', 'guru')
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->cekLogin()
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sisbudhi\app\Models\ModelAuth.php(15): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\sisbudhi\app\Controllers\Auth.php(32): App\Models\ModelAuth->LoginGuru('19112625', 'guru')
+#6 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->cekLogin()
+#7 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\sisbudhi\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sisbudhi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 19:12:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 427.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `guru`
+WHERE `nip` = :nip:
+AND `password` = :password:', [...], false)
+ 3 VENDORPATH\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\ModelAuth.php(15): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Auth.php(32): App\Models\ModelAuth->LoginGuru('19112625', 'guru')
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->cekLogin()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 19:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 19:12:21 --> Call to undefined method App\Models\ModelBerita::AllDataBerita
+in VENDORPATH\codeigniter4\framework\system\Model.php on line 838.
+ 1 APPPATH\Controllers\Berita.php(23): CodeIgniter\Model->__call('AllDataBerita', [])
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Berita->index()
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 19:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 19:12:31 --> Call to undefined method App\Models\ModelBerita::AllDataBerita
+in VENDORPATH\codeigniter4\framework\system\Model.php on line 838.
+ 1 APPPATH\Controllers\Berita.php(23): CodeIgniter\Model->__call('AllDataBerita', [])
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Berita->index()
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 19:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 19:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
