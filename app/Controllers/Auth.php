@@ -7,11 +7,11 @@ use App\Models\ModelAuth;
 
 class Auth extends BaseController
 {
-    private $ModelAuth;
+    private $modelAuth;
 
     public function __construct()
     {
-        $this->ModelAuth = new ModelAuth();
+        $this->modelAuth = new ModelAuth();
     }
 
     public function index()
@@ -30,13 +30,13 @@ class Auth extends BaseController
         $password = $this->request->getPost('password');
 
         if ($level == 1) {
-            $cek = $this->ModelAuth->LoginGuru($username, $password);
+            $cek = $this->modelAuth->loginGuru($username, $password);
 
             if ($cek) {
                 $data = [
                     'nip' => $cek['nip'],
                     'level' => $level,
-                    'logged_in' => TRUE
+                    'logged_in' => true
                 ];
                 session()->set($data);
                 session()->setFlashdata('pesan', 'Selamat Datang ' . $cek['nama_guru']);
@@ -46,13 +46,13 @@ class Auth extends BaseController
                 return redirect()->to('Auth');
             }
         } else if ($level == 2) {
-            $cek = $this->ModelAuth->LoginSiswa($username, $password);
+            $cek = $this->modelAuth->loginSiswa($username, $password);
 
             if ($cek) {
                 $data = [
                     'nisn' => $cek['nisn'],
                     'level' => $level,
-                    'logged_in' => TRUE
+                    'logged_in' => true
                 ];
                 session()->set($data);
                 session()->setFlashdata('pesan', 'Selamat Datang ' . $cek['nama_siswa']);
@@ -62,13 +62,13 @@ class Auth extends BaseController
                 return redirect()->to('Auth');
             }
         } else if ($level == 3) {
-            $cek = $this->ModelAuth->LoginAdmin($username, $password);
+            $cek = $this->modelAuth->loginAdmin($username, $password);
 
             if ($cek) {
                 $data = [
                     'username' => $cek['username'],
                     'level' => $level,
-                    'logged_in' => TRUE
+                    'logged_in' => true
                 ];
                 session()->set($data);
                 session()->setFlashdata('pesan', 'Selamat Datang Admin ' . $cek['nama_admin']);
@@ -80,7 +80,7 @@ class Auth extends BaseController
         }
     }
 
-    public function Logout()
+    public function logout()
     {
         session()->destroy();
         return redirect()->to('Auth');

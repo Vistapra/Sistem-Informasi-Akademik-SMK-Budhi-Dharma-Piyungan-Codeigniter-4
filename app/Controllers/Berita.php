@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
@@ -24,7 +25,7 @@ class Berita extends BaseController
         ];
 
         return view('Frontend/v_halaman_admin', $data);
-    }        
+    }
 
     public function Tambah()
     {
@@ -36,7 +37,7 @@ class Berita extends BaseController
 
         return view('Frontend/v_halaman_admin', $data);
     }
-   
+
     public function Edit($id_berita)
     {
         $data = [
@@ -48,7 +49,7 @@ class Berita extends BaseController
 
         return view('Frontend/v_halaman_admin', $data);
     }
-    
+
     public function View($id_berita)
     {
         $data = [

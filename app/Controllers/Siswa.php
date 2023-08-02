@@ -12,14 +12,12 @@ class Siswa extends BaseController
     protected $ModelSiswa;
     protected $ModelJurusan;
     protected $ModelKelas;
-    protected $logged_in_nisn; // Pindahkan variabel $logged_in_nisn ke dalam kelas
 
     public function __construct()
     {
         $this->ModelSiswa = new ModelSiswa();
         $this->ModelJurusan = new ModelJurusan();
         $this->ModelKelas = new ModelKelas();
-        $this->logged_in_nisn = session()->get('nisn'); // Gunakan $this->logged_in_nisn untuk mengakses variabel di dalam kelas
     }
 
     public function index()
@@ -41,8 +39,8 @@ class Siswa extends BaseController
             'judul' => 'Siswa',
             'subjudul' => 'Tambah Siswa',
             'page' => 'Siswa/v_tambah',
-            'jurusan' => $this->ModelJurusan->AllData(), // Menambahkan data jurusan ke view
-            'kelas' => $this->ModelKelas->AllData(), // Menambahkan data kelas ke view
+            'jurusan' => $this->ModelJurusan->AllData(),
+            'kelas' => $this->ModelKelas->AllData(),
         ];
 
         return view('Frontend/v_halaman_admin', $data);
@@ -55,23 +53,24 @@ class Siswa extends BaseController
             'subjudul' => 'Edit Siswa',
             'page' => 'Siswa/v_edit',
             'siswa' => $this->ModelSiswa->DetailData($id_siswa),
-            'jurusan' => $this->ModelJurusan->AllData(), // Menambahkan data jurusan ke view
-            'kelas' => $this->ModelKelas->AllData(), // Menambahkan data kelas ke view
+            'jurusan' => $this->ModelJurusan->AllData(),
+            'kelas' => $this->ModelKelas->AllData(),
         ];
 
         return view('Frontend/v_halaman_admin', $data);
     }
-    public function View($id_siswa)
-{
-    $data = [
-        'judul' => 'Siswa',
-        'subjudul' => 'Detail Siswa',
-        'page' => 'Siswa/v_view',
-        'siswa' => $this->ModelSiswa->DetailData($id_siswa), // Make sure DetailData() returns an array
-    ];
 
-    return view('Frontend/v_halaman_admin', $data);
-}
+    public function View($id_siswa)
+    {
+        $data = [
+            'judul' => 'Siswa',
+            'subjudul' => 'Detail Siswa',
+            'page' => 'Siswa/v_view',
+            'siswa' => $this->ModelSiswa->DetailData($id_siswa),
+        ];
+
+        return view('Frontend/v_halaman_admin', $data);
+    }
 
     public function TambahData()
     {
@@ -111,8 +110,8 @@ class Siswa extends BaseController
             'tempat_lahir' => $this->request->getPost('tempat_lahir'),
             'tgl_lahir' => $this->request->getPost('tgl_lahir'),
             'jk' => $this->request->getPost('jk'),
-            'id_jurusan' => $this->request->getPost('jurusan'), // Perubahan: Menggunakan id_jurusan dari POST data
-            'id_kelas' => $this->request->getPost('kelas'), // Perubahan: Menggunakan id_kelas dari POST data
+            'id_jurusan' => $this->request->getPost('jurusan'),
+            'id_kelas' => $this->request->getPost('kelas'),
             'password' => $this->request->getPost('password'),
             'level' => $this->request->getPost('level'),
         ];

@@ -75,7 +75,6 @@ class Nilai extends BaseController
 
     public function TambahData()
     {
-        // Ambil data dari form tambah dan simpan dalam variabel $data
         $data = [
             'id_siswa' => $this->request->getPost('id_siswa'),
             'id_mapel' => $this->request->getPost('id_mapel'),
@@ -91,7 +90,6 @@ class Nilai extends BaseController
 
     public function UbahData($id_nilai)
     {
-        // Ambil data dari form ubah dan simpan dalam variabel $data
         $data = [
             'id_nilai' => $id_nilai,
             'id_siswa' => $this->request->getPost('id_siswa'),

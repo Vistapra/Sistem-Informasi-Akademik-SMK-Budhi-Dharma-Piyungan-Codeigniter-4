@@ -42,11 +42,7 @@
                     <input type="password" name="password" class="form-control" placeholder="Password" required>
                 </div>
                 <div class="row">
-                    <label class="col-8">
-                        <a href="<?= base_url('home') ?>" class="btn btn-primary">
-                            <i class="fas fa-globe"></i> Website
-                        </a>
-                    </label>
+                    <div class="col-8"></div>
                     <div class="col-4">
                         <button type="submit" class="btn btn-primary btn-block">Masuk</button>
                     </div>

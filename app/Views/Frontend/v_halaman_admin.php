@@ -58,7 +58,7 @@
             </ul>
         </nav>
         <aside class="main-sidebar sidebar-light-primary elevation-4">
-            <a href="#" class="brand-link text-center">
+            <a href="<?= base_url('Dashboard') ?>" class="brand-link text-center">
                 <span class="brand-text font-weight-bold">SISBUDHI</span>
             </a>
             <div class="sidebar">

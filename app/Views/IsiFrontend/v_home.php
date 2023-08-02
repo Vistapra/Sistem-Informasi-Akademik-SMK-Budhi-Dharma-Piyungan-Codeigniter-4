@@ -7,7 +7,7 @@ $images = [
 ?>
 
 <section id="slider-part" class="slider-active">
-    <?php foreach ($images as $image) { ?>
+    <?php foreach ($images as $image) : ?>
     <div class="single-slider bg_cover pt-150" style="background-image: url(<?php echo $image; ?>)" data-overlay="4">
         <div class="container">
             <div class="row">
@@ -15,12 +15,12 @@ $images = [
                     <div class="slider-cont">
                         <h1 data-animation="bounceInLeft" data-delay="1s">SMK BUDHI DHARMA BOARDING SCHOOL PIYUNGAN</h1>
                         <div class="button float-left">
-                            <a href="<?= base_url('Home/Berita') ?>" class="main-btn">Readmore</a>
+                            <a href="<?= base_url('Home/Berita') ?>" class="main-btn">Baca Selengkapnya</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <?php } ?>
+    <?php endforeach; ?>
 </section>

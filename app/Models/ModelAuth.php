@@ -6,49 +6,50 @@ use CodeIgniter\Model;
 
 class ModelAuth extends Model
 {
-    protected $table = 'guru'; // Menentukan nama tabel yang akan digunakan oleh model ini
-
-    public function LoginGuru($nip, $password)
+    public function loginGuru($nip, $password)
     {
-        $user = $this->where('nip', $nip)->first(); // Mencari baris dalam tabel 'guru' dengan kolom 'nip' yang sama dengan nilai $nip
+        $user = $this->db->table('guru')
+        ->where('nip', $nip)
+            ->get()
+            ->getRowArray();
 
         if ($user && password_verify($password, $user['password'])) {
-            return $user; // Mengembalikan $user jika password cocok dengan password yang tersimpan dalam baris tersebut
+            return $user;
         }
 
-        return null; // Mengembalikan null jika tidak ada kecocokan atau $user tidak ada
+        return null;
     }
 
-    public function LoginSiswa($nisn, $password)
+    public function loginSiswa($nisn, $password)
     {
-        $user = $this->db->table('siswa') // Mengakses tabel 'siswa' menggunakan objek $this->db
-            ->where('nisn', $nisn) // Mencari baris dalam tabel dengan kolom 'nisn' yang sama dengan nilai $nisn
-            ->get() // Menjalankan query dan mendapatkan hasilnya
-            ->getRowArray(); // Mengambil hasil query sebagai array asosiatif dari baris pertama yang sesuai
+        $user = $this->db->table('siswa')
+            ->where('nisn', $nisn)
+            ->get()
+            ->getRowArray();
 
         if ($user && password_verify($password, $user['password'])) {
-            return $user; // Mengembalikan $user jika password cocok dengan password yang tersimpan dalam baris tersebut
+            return $user;
         }
 
-        return null; // Mengembalikan null jika tidak ada kecocokan atau $user tidak ada
+        return null;
     }
 
-    public function LoginAdmin($username, $password)
+    public function loginAdmin($username, $password)
     {
-        $user = $this->db->table('admin') // Mengakses tabel 'admin' menggunakan objek $this->db
-            ->where('username', $username) // Mencari baris dalam tabel dengan kolom 'username' yang sama dengan nilai $username
-            ->get() // Menjalankan query dan mendapatkan hasilnya
-            ->getRowArray(); // Mengambil hasil query sebagai array asosiatif dari baris pertama yang sesuai
+        $user = $this->db->table('admin')
+            ->where('username', $username)
+            ->get()
+            ->getRowArray();
 
         if ($user && password_verify($password, $user['password'])) {
-            return $user; // Mengembalikan $user jika password cocok dengan password yang tersimpan dalam baris tersebut
+            return $user;
         }
 
-        return null; // Mengembalikan null jika tidak ada kecocokan atau $user tidak ada
+        return null;
     }
 
     private function hashPassword($password)
     {
-        return password_hash($password, PASSWORD_DEFAULT); // Mengembalikan hash password menggunakan algoritma default yang ditentukan oleh PASSWORD_DEFAULT
+        return password_hash($password, PASSWORD_DEFAULT);
     }
 }

@@ -10,6 +10,7 @@ class Guru extends BaseController
 {
     protected $ModelGuru;
     protected $ModelJurusan;
+
     public function __construct()
     {
         $this->ModelGuru = new ModelGuru();
@@ -87,10 +88,10 @@ class Guru extends BaseController
                 'foto_guru' => $randomName,
             ];
 
-            $this->ModelGuru->TambahData($data);
+            $this->ModelGuru->tambahData($data);
 
             session()->setFlashdata('tambah', 'Data Berhasil Ditambahkan');
-        } 
+        }
 
         return redirect()->to(base_url('Guru'));
     }
@@ -122,7 +123,7 @@ class Guru extends BaseController
             $foto_guru->move('fotoguru', $data['foto_guru']);
         }
 
-        $this->ModelGuru->UbahData($id_guru, $data);
+        $this->ModelGuru->ubahData($id_guru, $data);
         session()->setFlashdata('ubah', 'Data Berhasil Diubah');
         return redirect()->to(base_url('Guru'));
     }
@@ -134,7 +135,7 @@ class Guru extends BaseController
             unlink('fotoguru/' . $guru['foto_guru']);
         }
 
-        $this->ModelGuru->HapusData($id_guru);
+        $this->ModelGuru->hapusData($id_guru);
         session()->setFlashdata('hapus', 'Data Berhasil Dihapus');
         return redirect()->to(base_url('Guru'));
     }

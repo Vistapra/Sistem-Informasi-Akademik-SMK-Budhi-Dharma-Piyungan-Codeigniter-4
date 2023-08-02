@@ -42,9 +42,9 @@ class Jadwalpelajaran extends BaseController
             'judul' => 'Jadwal Pelajaran',
             'subjudul' => 'Tambah Jadwal',
             'page' => 'Japel/v_tambah',
-            'kelas' => $this->Modelkelas->AllData(), // Menambahkan data kelas ke view
-            'mapel' => $this->ModelMapel->AllData(), // Menambahkan data mapel ke view
-            'guru' => $this->ModelGuru->AllData(), // Menambahkan data guru ke view
+            'kelas' => $this->Modelkelas->AllData(),
+            'mapel' => $this->ModelMapel->AllData(),
+            'guru' => $this->ModelGuru->AllData(),
         ];
 
         return view('Frontend/v_halaman_admin', $data);
@@ -57,9 +57,9 @@ class Jadwalpelajaran extends BaseController
             'subjudul' => 'Edit Jadwal',
             'page' => 'Japel/v_edit',
             'jadwalpelajaran' => $this->ModelJadwalpelajaran->DetailData($id_jadwal),
-            'kelas' => $this->Modelkelas->AllData(), // Menambahkan data kelas ke view
-            'mapel' => $this->ModelMapel->AllData(), // Menambahkan data mapel ke view
-            'guru' => $this->ModelGuru->AllData(), // Menambahkan data guru ke view
+            'kelas' => $this->Modelkelas->AllData(),
+            'mapel' => $this->ModelMapel->AllData(),
+            'guru' => $this->ModelGuru->AllData(),
         ];
 
         return view('Frontend/v_halaman_admin', $data);
@@ -85,12 +85,12 @@ class Jadwalpelajaran extends BaseController
     {
         $data = [
             'id_jadwal' => $id_jadwal,
-            'id_kelas' => $this->request->getPost('id_kelas'), // Assuming you have a form field named 'id_kelas'
-            'id_mapel' => $this->request->getPost('id_mapel'), // Assuming you have a form field named 'id_mapel'
-            'id_guru' => $this->request->getPost('id_guru'), // Assuming you have a form field named 'id_guru'
-            'hari' => $this->request->getPost('hari'), // Assuming you have a form field named 'hari'
-            'waktu_mulai' => $this->request->getPost('waktu_mulai'), // Assuming you have a form field named 'waktu_mulai'
-            'waktu_selesai' => $this->request->getPost('waktu_selesai'), // Assuming you have a form field named 'waktu_selesai'
+            'id_kelas' => $this->request->getPost('id_kelas'),
+            'id_mapel' => $this->request->getPost('id_mapel'),
+            'id_guru' => $this->request->getPost('id_guru'),
+            'hari' => $this->request->getPost('hari'),
+            'waktu_mulai' => $this->request->getPost('waktu_mulai'),
+            'waktu_selesai' => $this->request->getPost('waktu_selesai'),
         ];
 
         $this->ModelJadwalpelajaran->UbahData($data);
