@@ -33,9 +33,9 @@
                 <div class="form-group">
                     <select name="level" class="form-control" required>
                         <option value="">---Level---</option>
+                        <option value="3">Admin</option>
                         <option value="1">Guru</option>
                         <option value="2">Siswa</option>
-                        <option value="3">Admin</option>
                     </select>
                 </div>
                 <div class="form-group">

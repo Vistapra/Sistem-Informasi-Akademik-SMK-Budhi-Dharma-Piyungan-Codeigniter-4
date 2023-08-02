@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
@@ -60,7 +61,7 @@ class Auth extends BaseController
                 session()->setFlashdata('pesan', 'NISN atau Password Salah');
                 return redirect()->to('Auth');
             }
-        } else if ($level == 3) { // Penambahan untuk level 3 (Admin)
+        } else if ($level == 3) {
             $cek = $this->ModelAuth->LoginAdmin($username, $password);
 
             if ($cek) {
@@ -70,7 +71,7 @@ class Auth extends BaseController
                     'logged_in' => TRUE
                 ];
                 session()->set($data);
-                session()->setFlashdata('pesan', 'Selamat Datang Admin');
+                session()->setFlashdata('pesan', 'Selamat Datang Admin ' . $cek['nama_admin']);
                 return redirect()->to('Dashboard');
             } else {
                 session()->setFlashdata('pesan', 'Username atau Password Admin Salah');
