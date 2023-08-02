@@ -3,7 +3,7 @@
         <div class="card-header">
             <h3 class="card-title"><i class="fas fa-newspaper"></i> <?= $subjudul ?></h3>
             <div class="card-tools">
-                <?php if ($level === '1') { ?>
+                <?php if ($level === '3') { ?>
                 <a href="<?= base_url('Ekstrakurikuller/Tambah') ?>" class="btn btn-primary">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
@@ -39,7 +39,7 @@
                             <th>Jadwal Kegiatan</th>
                             <th>Jumlah Peserta</th>
                             <th>Foto</th>
-                            <?php if ($level === '1') { ?>
+                            <?php if ($level === '3') { ?>
                             <th width="70px">Aksi</th>
                             <?php } ?>
                         </tr>
@@ -57,7 +57,7 @@
                                 <img src="<?= base_url('fotoekstra/' . $data['foto_ekstra']) ?>" width="100px"
                                     height="auto" alt="Foto Ekstrakurikuller">
                             </td>
-                            <?php if ($level === '1') { ?>
+                            <?php if ($level === '3') { ?>
                             <td class="text-center">
                                 <div class="btn-group">
                                     <a href="<?= base_url('Ekstrakurikuller/View/' . $data['id_ekstra']) ?>"

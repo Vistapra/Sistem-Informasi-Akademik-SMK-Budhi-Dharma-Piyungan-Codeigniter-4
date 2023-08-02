@@ -4,17 +4,14 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\ModelDashboard;
-use App\Models\ModelSiswa;
 
 class Dashboard extends BaseController
 {
     protected $ModelDashboard;
-    protected $ModelSiswa;
 
     public function __construct()
     {
         $this->ModelDashboard = new ModelDashboard();
-        $this->ModelSiswa = new ModelSiswa();
     }
 
     public function index()
@@ -41,7 +38,7 @@ class Dashboard extends BaseController
             $siswa = $this->ModelDashboard->getBiodataSiswa($nisn);
             $jadwal_siswa = $this->ModelDashboard->getJadwalPelajaranSiswa($nisn);
             $nilai_siswa = $this->ModelDashboard->getNilaiSiswa($siswa['id_siswa']);
-    
+
             $data = [
                 'judul' => 'Dashboard Siswa',
                 'subjudul' => 'Data Dashboard Siswa',
@@ -51,7 +48,20 @@ class Dashboard extends BaseController
                 'jadwal_siswa' => $jadwal_siswa,
                 'nilai_siswa' => $nilai_siswa,
             ];
-    
+
+            return view('Frontend/v_halaman_admin', $data);
+        } else if ($level == 3) {
+            $username = session()->get('username');
+            $admin = $this->ModelDashboard->getBiodataAdmin($username);
+
+            $data = [
+                'judul' => 'Dashboard Admin',
+                'subjudul' => 'Data Dashboard Admin',
+                'page' => 'Dashboard/v_t_DashboardAdmin',
+                'level' => $level,
+                'admin' => $admin,
+            ];
+
             return view('Frontend/v_halaman_admin', $data);
         }
     }

@@ -3,7 +3,7 @@
         <div class="card-header">
             <h3 class="card-title"><?= $subjudul ?></h3>
             <div class="card-tools">
-                <?php if ($level === '1') { ?>
+                <?php if ($level === '3') { ?>
                 <a href="<?= base_url('Jadwalpelajaran/Tambah') ?>" class="btn btn-primary">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
@@ -39,7 +39,7 @@
                             <th>Hari</th>
                             <th>Waktu Mulai</th>
                             <th>Waktu Selesai</th>
-                            <?php if ($level === '1') { ?>
+                            <?php if ($level === '3') { ?>
                             <th width="100px">Aksi</th>
                             <?php } ?>
                         </tr>
@@ -56,7 +56,7 @@
                             <td><?= $data['waktu_selesai'] ?></td>
                             <td class="text-center">
                                 <div class="btn-group">
-                                    <?php if ($level === '1') { ?>
+                                    <?php if ($level === '3') { ?>
                                     <a href="<?= base_url('Jadwalpelajaran/Edit/' . $data['id_jadwal']) ?>"
                                         class="btn btn-warning">
                                         <i class="fas fa-edit"></i></a>

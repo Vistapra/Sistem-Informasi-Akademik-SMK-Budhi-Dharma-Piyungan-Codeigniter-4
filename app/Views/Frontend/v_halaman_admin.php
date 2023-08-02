@@ -78,8 +78,14 @@
                                 <p>Dashboard Siswa</p>
                             </a>
                         </li>
-                        <?php endif; ?>
-                        <!-- <li class="nav-item">
+                        <?php elseif (session()->get('level') == 3): ?>
+                        <li class="nav-item">
+                            <a href="<?= base_url('Dashboard') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-newspaper"></i>
+                                <p>Dashboard Admin</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a href="<?= base_url('Berita') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>Berita</p>
@@ -132,7 +138,9 @@
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>Data Nilai</p>
                             </a>
-                        </li> -->
+                        </li>
+
+                        <?php endif; ?>
                     </ul>
                 </nav>
             </div>

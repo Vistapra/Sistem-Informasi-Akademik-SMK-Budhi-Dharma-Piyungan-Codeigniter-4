@@ -3,7 +3,7 @@
         <div class="card-header">
             <h3 class="card-title"><i class="fas fa-newspaper"></i> <?= $subjudul ?></h3>
             <div class="card-tools">
-                <?php if ($level === '1') { ?>
+                <?php if ($level === '3') { ?>
                 <a href="<?= base_url('Guru/Tambah') ?>" class="btn btn-primary">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
@@ -33,7 +33,7 @@
                     <thead class="bg-primary text-center">
                         <tr>
                             <th width="20px">No</th>
-                            <?php if ($level === '1') { ?>
+                            <?php if ($level === '3') { ?>
                             <th width="30px">Kode Guru</th>
                             <th>NIP</th>
                             <?php } ?>
@@ -44,7 +44,7 @@
                             <th>Pendidikan</th>
                             <th>Jurusan</th>
                             <th>Foto</th>
-                            <?php if ($level === '1') { ?>
+                            <?php if ($level === '3') { ?>
                             <th width="70px">Aksi</th>
                             <?php } ?>
                         </tr>
@@ -53,7 +53,7 @@
                         <?php foreach ($guru as $key => $data) { ?>
                         <tr>
                             <td class="text-center"><?= $key + 1 ?></td>
-                            <?php if ($level === '1') { ?>
+                            <?php if ($level === '3') { ?>
                             <td><?= $data['kode_guru'] ?></td>
                             <td><?= $data['nip'] ?></td>
                             <?php } ?>
@@ -67,7 +67,7 @@
                                 <img src="<?= base_url('fotoguru/' . $data['foto_guru']) ?>" width="100px" height="auto"
                                     alt="Gambar Guru">
                             </td>
-                            <?php if ($level === '1') { ?>
+                            <?php if ($level === '3') { ?>
                             <td class="text-center">
                                 <div class="btn-group">
                                     <a href="<?= base_url('Guru/View/' . $data['id_guru']) ?>" class="btn btn-info">

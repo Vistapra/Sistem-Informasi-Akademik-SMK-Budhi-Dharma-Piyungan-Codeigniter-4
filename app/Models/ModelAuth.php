@@ -8,19 +8,29 @@ class ModelAuth extends Model
 {
     protected $table = 'guru';
 
-    public function LoginGuru ($nip, $password)
+    public function LoginGuru($nip, $password)
     {
         return $this->where('nip', $nip)
-                    ->where('password', $password)
-                    ->get()
-                    ->getRowArray();
+            ->where('password', $password)
+            ->get()
+            ->getRowArray();
     }
+
     public function LoginSiswa($nisn, $password)
     {
         return $this->db->table('siswa')
-                        ->where('nisn', $nisn)
-                        ->where('password', $password)
-                        ->get()
-                        ->getRowArray();
+            ->where('nisn', $nisn)
+            ->where('password', $password)
+            ->get()
+            ->getRowArray();
+    }
+
+    public function LoginAdmin($username, $password)
+    {
+        return $this->db->table('admin')
+            ->where('username', $username)
+            ->where('password', $password)
+            ->get()
+            ->getRowArray();
     }
 }

@@ -38,7 +38,7 @@ class Auth extends BaseController
                     'logged_in' => TRUE
                 ];
                 session()->set($data);
-                session()->setFlashdata('pesan', 'Anda Login Sebagai ');
+                session()->setFlashdata('pesan', 'Selamat Datang ' . $cek['nama_guru']);
                 return redirect()->to('Dashboard');
             } else {
                 session()->setFlashdata('pesan', 'NIP atau Password Salah');
@@ -54,10 +54,26 @@ class Auth extends BaseController
                     'logged_in' => TRUE
                 ];
                 session()->set($data);
-                session()->setFlashdata('pesan', 'Anda Login Sebagai ');
+                session()->setFlashdata('pesan', 'Selamat Datang ' . $cek['nama_siswa']);
                 return redirect()->to('Dashboard');
             } else {
                 session()->setFlashdata('pesan', 'NISN atau Password Salah');
+                return redirect()->to('Auth');
+            }
+        } else if ($level == 3) { // Penambahan untuk level 3 (Admin)
+            $cek = $this->ModelAuth->LoginAdmin($username, $password);
+
+            if ($cek) {
+                $data = [
+                    'username' => $cek['username'],
+                    'level' => $level,
+                    'logged_in' => TRUE
+                ];
+                session()->set($data);
+                session()->setFlashdata('pesan', 'Selamat Datang Admin');
+                return redirect()->to('Dashboard');
+            } else {
+                session()->setFlashdata('pesan', 'Username atau Password Admin Salah');
                 return redirect()->to('Auth');
             }
         }

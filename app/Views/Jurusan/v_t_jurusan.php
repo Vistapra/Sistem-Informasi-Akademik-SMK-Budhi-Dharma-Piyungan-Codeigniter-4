@@ -3,7 +3,7 @@
         <div class="card-header">
             <h3 class="card-title"><?= $subjudul ?></h3>
             <div class="card-tools">
-                <?php if ($level === '1') { ?>
+                <?php if ($level === '3') { ?>
                 <a href="<?= base_url('Jurusan/Tambah') ?>" class="btn btn-primary">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
@@ -48,7 +48,7 @@
                                     <a href="<?= base_url('Jurusan/View/' . $data['id_jurusan']) ?>"
                                         class="btn btn-info">
                                         <i class="fas fa-eye"></i></a>
-                                    <?php if ($level === '1') { ?>
+                                    <?php if ($level === '3') { ?>
                                     <a href="<?= base_url('Jurusan/Edit/' . $data['id_jurusan']) ?>"
                                         class="btn btn-warning">
                                         <i class="fas fa-edit"></i></a>

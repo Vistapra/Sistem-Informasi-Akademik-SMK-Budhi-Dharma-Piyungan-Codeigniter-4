@@ -39,25 +39,26 @@
             <div class="form-group">
                 <label for="jurusan">Jurusan</label>
                 <select name="jurusan" class="form-control" required>
-                    <option value="">Pilih Jurusan</option>
-                    <?php foreach ($jurusan as $j): ?>
-                    <option value="<?= $j['id_jurusan'] ?>"
-                        <?= $j['id_jurusan'] === $siswa['jurusan'] ? 'selected' : '' ?>>
-                        <?= $j['jurusan'] ?>
+                    <option value="" selected disabled>-- Pilih Jurusan --</option>
+                    <?php foreach ($jurusan as $j) { ?>
+                    <option value="<?= $j['id_jurusan']; ?>"
+                        <?= ($j['id_jurusan'] == $siswa['id_jurusan']) ? 'selected' : ''; ?>>
+                        <?= $j['jurusan']; ?>
                     </option>
-                    <?php endforeach; ?>
+                    <?php } ?>
                 </select>
             </div>
 
             <div class="form-group">
                 <label for="kelas">Kelas</label>
                 <select name="kelas" class="form-control" required>
-                    <option value="">Pilih Kelas</option>
-                    <?php foreach ($kelas as $k): ?>
-                    <option value="<?= $k['id_kelas'] ?>" <?= $k['id_kelas'] === $siswa['kelas'] ? 'selected' : '' ?>>
-                        <?= $k['kelas'] ?>
+                    <option value="" selected disabled>-- Pilih Kelas --</option>
+                    <?php foreach ($kelas as $k) { ?>
+                    <option value="<?= $k['id_kelas']; ?>"
+                        <?= ($k['id_kelas'] == $siswa['id_kelas']) ? 'selected' : ''; ?>>
+                        <?= $k['kelas']; ?>
                     </option>
-                    <?php endforeach; ?>
+                    <?php } ?>
                 </select>
             </div>
 
