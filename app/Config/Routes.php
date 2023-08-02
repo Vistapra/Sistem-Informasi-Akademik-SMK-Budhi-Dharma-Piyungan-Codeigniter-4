@@ -34,6 +34,9 @@ $routes->get('/', 'Home::index');
 $routes->get('form', 'Form::index');
 $routes->post('form', 'Form::index');
 $routes->get('logout', 'Auth::logout');
+$routes->get('/hash', 'HashController::index');
+$routes->post('/hash', 'HashController::hash');
+$routes->post('/verify', 'HashController::verify');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -39,7 +39,7 @@ class Siswa extends BaseController
             'judul' => 'Siswa',
             'subjudul' => 'Tambah Siswa',
             'page' => 'Siswa/v_tambah',
-            'jurusan' => $this->ModelJurusan->AllData(),
+            'jurusan' => $this->ModelJurusan->AllData(), 
             'kelas' => $this->ModelKelas->AllData(),
         ];
 
@@ -53,24 +53,23 @@ class Siswa extends BaseController
             'subjudul' => 'Edit Siswa',
             'page' => 'Siswa/v_edit',
             'siswa' => $this->ModelSiswa->DetailData($id_siswa),
-            'jurusan' => $this->ModelJurusan->AllData(),
+            'jurusan' => $this->ModelJurusan->AllData(), 
             'kelas' => $this->ModelKelas->AllData(),
         ];
 
         return view('Frontend/v_halaman_admin', $data);
     }
-
     public function View($id_siswa)
-    {
-        $data = [
-            'judul' => 'Siswa',
-            'subjudul' => 'Detail Siswa',
-            'page' => 'Siswa/v_view',
-            'siswa' => $this->ModelSiswa->DetailData($id_siswa),
-        ];
+{
+    $data = [
+        'judul' => 'Siswa',
+        'subjudul' => 'Detail Siswa',
+        'page' => 'Siswa/v_view',
+        'siswa' => $this->ModelSiswa->DetailData($id_siswa),
+    ];
 
-        return view('Frontend/v_halaman_admin', $data);
-    }
+    return view('Frontend/v_halaman_admin', $data);
+}
 
     public function TambahData()
     {
@@ -111,7 +110,7 @@ class Siswa extends BaseController
             'tgl_lahir' => $this->request->getPost('tgl_lahir'),
             'jk' => $this->request->getPost('jk'),
             'id_jurusan' => $this->request->getPost('jurusan'),
-            'id_kelas' => $this->request->getPost('kelas'),
+            'id_kelas' => $this->request->getPost('kelas'), 
             'password' => $this->request->getPost('password'),
             'level' => $this->request->getPost('level'),
         ];
