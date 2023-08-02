@@ -68,6 +68,8 @@ class Guru extends BaseController
 
     public function TambahData()
     {
+        
+        $hashedPassword = password_hash($_POST['password'], PASSWORD_DEFAULT);
         $foto_guru = $this->request->getFile('foto_guru');
 
         if ($foto_guru->isValid() && !$foto_guru->hasMoved()) {
@@ -83,7 +85,7 @@ class Guru extends BaseController
                 'telp_guru' => $this->request->getPost('telp_guru'),
                 'pendidikan' => $this->request->getPost('pendidikan'),
                 'id_jurusan' => $this->request->getPost('jurusan'),
-                'password' => $this->request->getPost('password'),
+                'password' => $hashedPassword,
                 'level' => $this->request->getPost('level'),
                 'foto_guru' => $randomName,
             ];
@@ -97,8 +99,10 @@ class Guru extends BaseController
     }
 
     public function UbahData($id_guru)
-    {
+    {      
+        $hashedPassword = password_hash($_POST['password'], PASSWORD_DEFAULT);
         $guru = $this->ModelGuru->DetailData($id_guru);
+
         $data = [
             'id_guru' => $id_guru,
             'kode_guru' => $this->request->getPost('kode_guru'),
@@ -109,7 +113,7 @@ class Guru extends BaseController
             'telp_guru' => $this->request->getPost('telp_guru'),
             'pendidikan' => $this->request->getPost('pendidikan'),
             'id_jurusan' => $this->request->getPost('jurusan'),
-            'password' => $this->request->getPost('password'),
+            'password' => $hashedPassword,
             'level' => $this->request->getPost('level'),
         ];
         $foto_guru = $this->request->getFile('foto_guru');

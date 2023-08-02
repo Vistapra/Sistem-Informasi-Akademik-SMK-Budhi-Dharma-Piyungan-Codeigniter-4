@@ -71,25 +71,27 @@ class Siswa extends BaseController
     return view('Frontend/v_halaman_admin', $data);
 }
 
-    public function TambahData()
-    {
-        $foto_siswa = $this->request->getFile('foto_siswa');
+public function TambahData()
+{
+    $hashedPassword = password_hash($_POST['password'], PASSWORD_DEFAULT);
+    $foto_siswa = $this->request->getFile('foto_siswa');
 
-        if ($foto_siswa->isValid() && !$foto_siswa->hasMoved()) {
-            $randomName = $foto_siswa->getRandomName();
-            $foto_siswa->move('fotosiswa', $randomName);
-
-            $data = [
-                'nisn' => $this->request->getPost('nisn'),
-                'nama_siswa' => $this->request->getPost('nama_siswa'),
-                'tempat_lahir' => $this->request->getPost('tempat_lahir'),
-                'tgl_lahir' => $this->request->getPost('tgl_lahir'),
-                'jk' => $this->request->getPost('jk'),
-                'id_jurusan' => $this->request->getPost('jurusan'),
-                'id_kelas' => $this->request->getPost('kelas'),
-                'password' => $this->request->getPost('password'),
-                'level' => $this->request->getPost('level'),
-                'foto_siswa' => $randomName,
+    if ($foto_siswa->isValid() && !$foto_siswa->hasMoved()) {
+        $randomName = $foto_siswa->getRandomName();
+        $foto_siswa->move('fotosiswa', $randomName);
+        
+        
+        $data = [
+            'nisn' => $this->request->getPost('nisn'),
+            'nama_siswa' => $this->request->getPost('nama_siswa'),
+            'tempat_lahir' => $this->request->getPost('tempat_lahir'),
+            'tgl_lahir' => $this->request->getPost('tgl_lahir'),
+            'jk' => $this->request->getPost('jk'),
+            'id_jurusan' => $this->request->getPost('jurusan'),
+            'id_kelas' => $this->request->getPost('kelas'),
+            'password' => $hashedPassword,
+            'level' => $this->request->getPost('level'),
+            'foto_siswa' => $randomName,
             ];
 
             $this->ModelSiswa->TambahData($data);
@@ -102,7 +104,10 @@ class Siswa extends BaseController
 
     public function UbahData($id_siswa)
     {
+        
+        $hashedPassword = password_hash($_POST['password'], PASSWORD_DEFAULT);
         $siswa = $this->ModelSiswa->DetailData($id_siswa);
+        
         $data = [
             'nisn' => $this->request->getPost('nisn'),
             'nama_siswa' => $this->request->getPost('nama_siswa'),
@@ -111,7 +116,7 @@ class Siswa extends BaseController
             'jk' => $this->request->getPost('jk'),
             'id_jurusan' => $this->request->getPost('jurusan'),
             'id_kelas' => $this->request->getPost('kelas'), 
-            'password' => $this->request->getPost('password'),
+            'password' => $hashedPassword,
             'level' => $this->request->getPost('level'),
         ];
         $foto_siswa = $this->request->getFile('foto_siswa');

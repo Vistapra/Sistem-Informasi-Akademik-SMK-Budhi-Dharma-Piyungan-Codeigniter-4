@@ -7,11 +7,11 @@ use App\Models\ModelAuth;
 
 class Auth extends BaseController
 {
-    private $modelAuth;
+    private $ModelAuth;
 
     public function __construct()
     {
-        $this->modelAuth = new ModelAuth();
+        $this->ModelAuth = new ModelAuth();
     }
 
     public function index()
@@ -30,7 +30,7 @@ class Auth extends BaseController
         $password = $this->request->getPost('password');
 
         if ($level == 1) {
-            $cek = $this->modelAuth->loginGuru($username, $password);
+            $cek = $this->ModelAuth->loginGuru($username, $password);
 
             if ($cek) {
                 $data = [
@@ -46,7 +46,7 @@ class Auth extends BaseController
                 return redirect()->to('Auth');
             }
         } else if ($level == 2) {
-            $cek = $this->modelAuth->loginSiswa($username, $password);
+            $cek = $this->ModelAuth->loginSiswa($username, $password);
 
             if ($cek) {
                 $data = [
@@ -62,7 +62,7 @@ class Auth extends BaseController
                 return redirect()->to('Auth');
             }
         } else if ($level == 3) {
-            $cek = $this->modelAuth->loginAdmin($username, $password);
+            $cek = $this->ModelAuth->loginAdmin($username, $password);
 
             if ($cek) {
                 $data = [
