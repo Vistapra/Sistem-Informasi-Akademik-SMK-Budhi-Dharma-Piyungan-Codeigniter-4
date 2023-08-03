@@ -21,11 +21,6 @@
             </div>
             <div class="card-body">
                 <p class="login-box-msg">Silahkan Login Terlebih Dahulu</p>
-
-                <?php if (session()->getFlashdata('pesan')): ?>
-                <div class="alert alert-danger"><?= session()->getFlashdata('pesan') ?></div>
-                <?php endif; ?>
-
                 <?= form_open('Auth/cekLogin') ?>
                 <div class="form-group">
                     <input type="text" name="username" class="form-control" placeholder="NISN/NIP" required>
