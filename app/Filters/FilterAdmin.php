@@ -27,7 +27,7 @@ class FilterAdmin implements FilterInterface
     {
         if (session()->get('level') == '') {
             session()->setFlashdata('pesan', 'Anda Belum Login');
-            return redirect()->to(base_url('Auth'));
+            return redirect()->to(base_url('Home'));
         }
     }
 

@@ -22,7 +22,6 @@ class Auth extends BaseController
         ];
         return view('Frontend/v_login', $data);
     }
-
     public function cekLogin()
     {
         $username = $this->request->getPost('username');
@@ -79,7 +78,6 @@ class Auth extends BaseController
             }
         }
     }
-
     public function logout()
     {
         session()->destroy();

@@ -44,10 +44,6 @@
                                 <td><strong>Jurusan :</strong></td>
                                 <td><?= $guru['jurusan']; ?></td>
                             </tr>
-                            <tr>
-                                <td><strong>Password :</strong></td>
-                                <td><?= $guru['password']; ?></td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>

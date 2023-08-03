@@ -46,7 +46,6 @@ class Tugas extends BaseController
             'tugas' => $this->ModelTugas->AllData(),
             'kelas' => $this->ModelKelas->AllData(),
             'mapel' => $this->ModelMapel->AllData(),
-
         ];
 
         return view('Frontend/v_halaman_admin', $data);
@@ -79,49 +78,49 @@ class Tugas extends BaseController
     }
 
     public function TambahData()
-{
-    $file = $this->request->getFile('file_tugas');
-    $namafile = $file->getName();
-    $file->move('./filetugas', $namafile);
+    {
+        $file = $this->request->getFile('file_tugas');
+        $namafile = $file->getName();
+        $file->move('./filetugas', $namafile);
 
-    $data = [
-        'id_kelas' => $this->request->getPost('kelas'),
-        'id_mapel' => $this->request->getPost('id_mapel'),
-        'judul_tugas' => $this->request->getPost('judul_tugas'),
-        'deskripsi' => $this->request->getPost('deskripsi'),
-        'file_tugas' => $namafile,
-        'tgl_deadline' => $this->request->getPost('tgl_deadline'),
-    ];
+        $data = [
+            'id_kelas' => $this->request->getPost('kelas'),
+            'id_mapel' => $this->request->getPost('id_mapel'),
+            'judul_tugas' => $this->request->getPost('judul_tugas'),
+            'deskripsi' => $this->request->getPost('deskripsi'),
+            'file_tugas' => $namafile,
+            'tgl_deadline' => $this->request->getPost('tgl_deadline'),
+        ];
 
-    $this->ModelTugas->TambahData($data);
-    session()->setFlashdata('tambah', 'Data Berhasil Ditambahkan');
-    return redirect()->to('Tugas');
-}
-
-public function UbahData()
-{
-    $id_tugas = $this->request->getPost('id_tugas');
-
-    $data = [
-        'id_kelas' => $this->request->getPost('kelas'),
-        'id_mapel' => $this->request->getPost('id_mapel'),
-        'judul_tugas' => $this->request->getPost('judul_tugas'),
-        'deskripsi' => $this->request->getPost('deskripsi'),
-        'tgl_deadline' => $this->request->getPost('tgl_deadline'),
-    ];
-    $file = $this->request->getFile('file_tugas');
-
-    if ($file && $file->isValid() && !$file->hasMoved()) {
-    $namafile = $file->getName();
-    $file->move('./filetugas', $namafile);
-    $data['file_tugas'] = $namafile;
-
+        $this->ModelTugas->TambahData($data);
+        session()->setFlashdata('tambah', 'Data Berhasil Ditambahkan');
+        return redirect()->to('Tugas');
     }
 
-    $this->ModelTugas->UbahData($id_tugas, $data);
-    session()->setFlashdata('ubah', 'Data Berhasil Diubah');
-    return redirect()->to('Tugas');
-}
+    public function UbahData()
+    {
+        $id_tugas = $this->request->getPost('id_tugas');
+
+        $data = [
+            'id_kelas' => $this->request->getPost('kelas'),
+            'id_mapel' => $this->request->getPost('id_mapel'),
+            'judul_tugas' => $this->request->getPost('judul_tugas'),
+            'deskripsi' => $this->request->getPost('deskripsi'),
+            'tgl_deadline' => $this->request->getPost('tgl_deadline'),
+        ];
+        $file = $this->request->getFile('file_tugas');
+
+        if ($file && $file->isValid() && !$file->hasMoved()) {
+            $namafile = $file->getName();
+            $file->move('./filetugas', $namafile);
+            $data['file_tugas'] = $namafile;
+        }
+
+        $this->ModelTugas->UbahData($id_tugas, $data);
+        session()->setFlashdata('ubah', 'Data Berhasil Diubah');
+        return redirect()->to('Tugas');
+    }
+
     public function HapusData($id_tugas)
     {
         $this->ModelTugas->HapusData($id_tugas);

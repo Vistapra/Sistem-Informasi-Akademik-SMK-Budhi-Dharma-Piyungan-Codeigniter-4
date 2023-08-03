@@ -6,7 +6,7 @@ use App\Models\ModelBerita;
 
 class Berita extends BaseController
 {
-    private $ModelBerita;
+    protected $ModelBerita;
 
     public function __construct()
     {

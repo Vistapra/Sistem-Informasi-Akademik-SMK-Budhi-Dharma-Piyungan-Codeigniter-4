@@ -46,10 +46,6 @@
                                 <td><strong>Kelas:</strong></td>
                                 <td><?= $siswa['kelas']; ?></td>
                             </tr>
-                            <tr>
-                                <td><strong>Password:</strong></td>
-                                <td><?= $siswa['password']; ?></td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>

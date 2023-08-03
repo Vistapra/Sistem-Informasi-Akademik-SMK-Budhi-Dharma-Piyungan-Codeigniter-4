@@ -26,22 +26,6 @@ public function DetailData($id_tugas)
         ->get()
         ->getRowArray();
     }
-    public function UploadFile($id_tugas, $fileData)
-    {
-    return $this->db->table('tugas')
-        ->where('id_tugas', $id_tugas)
-        ->update($fileData);
-    }
-
-    public function UnduhFile($id_tugas)
-    {
-    return $this->db->table('tugas')
-        ->select('file_name, file_path')
-        ->where('id_tugas', $id_tugas)
-        ->get()
-        ->getRowArray();
-    }
-
     public function TambahData($data)
     {
         return $this->db
