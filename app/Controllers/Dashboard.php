@@ -4,14 +4,20 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\ModelDashboard;
+use App\Models\ModelPengumuman;
+use App\Models\ModelTugas;
 
 class Dashboard extends BaseController
 {
     protected $ModelDashboard;
+    protected $ModelPengumuman;
+    protected $ModelTugas;
 
     public function __construct()
     {
         $this->ModelDashboard = new ModelDashboard();
+        $this->ModelPengumuman = new ModelPengumuman();
+        $this->ModelTugas = new ModelTugas();
     }
 
     public function index()
@@ -38,6 +44,7 @@ class Dashboard extends BaseController
             $siswa = $this->ModelDashboard->getBiodataSiswa($nisn);
             $jadwal_siswa = $this->ModelDashboard->getJadwalPelajaranSiswa($nisn);
             $nilai_siswa = $this->ModelDashboard->getNilaiSiswa($siswa['id_siswa']);
+            $pengumuman = $this->ModelPengumuman->GetLatestPengumuman(5);
 
             $data = [
                 'judul' => 'Dashboard Siswa',
@@ -47,6 +54,7 @@ class Dashboard extends BaseController
                 'siswa' => $siswa,
                 'jadwal_siswa' => $jadwal_siswa,
                 'nilai_siswa' => $nilai_siswa,
+                'pengumuman' => $pengumuman,
             ];
 
             return view('Frontend/v_halaman_admin', $data);

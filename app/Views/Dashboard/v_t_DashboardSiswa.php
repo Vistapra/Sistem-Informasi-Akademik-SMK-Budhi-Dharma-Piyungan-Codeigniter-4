@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Siswa</title>
-    <!-- Include your CSS and JavaScript files here -->
 </head>
 
 <body>
@@ -68,6 +67,28 @@
             </div>
         </div>
 
+        <div class="col-md-12">
+            <div class="card card-outline card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">Pengumuman</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <?php foreach ($pengumuman as $p) { ?>
+                        <li class="media">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1"><?= $p['judul_pengumuman'] ?></h5>
+                                <p><?= $p['isi_pengumuman'] ?></p>
+                                <small class="text-muted"><?= $p['nama_guru'] ?> |
+                                    <?= date('d F Y H:i', strtotime($p['tgl_pengumuman'])) ?></small>
+                            </div>
+                        </li>
+                        <?php } ?>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-12">
                 <div class="card">
@@ -85,12 +106,12 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php foreach ($nilai_siswa as $nilai) { ?>
+                                <?php foreach ($nilai_siswa as $n) { ?>
                                 <tr>
-                                    <td><?= $nilai['mapel']; ?></td>
-                                    <td><?= $nilai['nilai_angka']; ?></td>
-                                    <td><?= $nilai['semester']; ?></td>
-                                    <td><?= $nilai['tahun_akademik']; ?></td>
+                                    <td><?= $n['mapel']; ?></td>
+                                    <td><?= $n['nilai_angka']; ?></td>
+                                    <td><?= $n['semester']; ?></td>
+                                    <td><?= $n['tahun_akademik']; ?></td>
                                 </tr>
                                 <?php } ?>
                             </tbody>

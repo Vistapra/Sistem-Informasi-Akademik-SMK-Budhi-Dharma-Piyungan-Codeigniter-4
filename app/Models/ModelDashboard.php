@@ -51,25 +51,27 @@ class ModelDashboard extends Model
     }
 
     public function getJadwalPelajaranSiswa($nisn)
-    {
-        $siswa = $this->db->table('siswa')
-            ->where('nisn', $nisn)
+{
+    $siswa = $this->db->table('siswa')
+        ->where('nisn', $nisn)
+        ->get()
+        ->getRow();
+
+    if ($siswa) {
+        $id_kelas = $siswa->id_kelas;
+
+        return $this->db->table('jadwalpelajaran')
+            ->join('kelas', 'kelas.id_kelas = jadwalpelajaran.id_kelas')
+            ->join('mapel', 'mapel.id_mapel = jadwalpelajaran.id_mapel')
+            ->join('guru', 'guru.id_guru = jadwalpelajaran.id_guru')
+            ->where('jadwalpelajaran.id_kelas', $id_kelas)
+            ->orderBy('FIELD(hari, "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu")') 
             ->get()
-            ->getRow();
-
-        if ($siswa) {
-            $id_kelas = $siswa->id_kelas;
-
-            return $this->db->table('jadwalpelajaran')
-                ->join('kelas', 'kelas.id_kelas = jadwalpelajaran.id_kelas')
-                ->join('mapel', 'mapel.id_mapel = jadwalpelajaran.id_mapel')
-                ->join('guru', 'guru.id_guru = jadwalpelajaran.id_guru')
-                ->where('jadwalpelajaran.id_kelas', $id_kelas)
-                ->orderBy('FIELD(hari, "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu")') 
-                ->get()
-                ->getResultArray();
-        }
+            ->getResultArray();
     }
+}
+
+
 
     public function getNilaiSiswa($id_siswa)
     {
@@ -79,4 +81,7 @@ class ModelDashboard extends Model
             ->get()
             ->getResultArray();
     }
+
+
+
 }

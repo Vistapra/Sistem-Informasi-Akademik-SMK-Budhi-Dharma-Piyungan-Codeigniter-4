@@ -16,12 +16,6 @@ class ModelSiswa extends Model
             ->get()
             ->getResultArray();
     }
-
-    public function TambahData($data)
-    {
-        return $this->db->table('siswa')->insert($data);
-    }
-
     public function DetailData($id_siswa)
     {
         return $this->db->table('siswa')
@@ -31,6 +25,10 @@ class ModelSiswa extends Model
             ->where('siswa.id_siswa', $id_siswa)
             ->get()
             ->getRowArray();
+    }
+    public function TambahData($data)
+    {
+        return $this->db->table('siswa')->insert($data);
     }
     public function UbahData($id_siswa, $data)
     {

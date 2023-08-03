@@ -4,7 +4,7 @@
             <h3 class="card-title"><?= $subjudul ?></h3>
             <div class="card-tools">
                 <?php if ($level === '3' || $level === '1') { ?>
-                <a href="<?= base_url('Nilai/Tambah') ?>" class="btn btn-primary">
+                <a href="<?= base_url('Pengumuman/Tambah') ?>" class="btn btn-primary">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
                 <?php } ?>
@@ -33,32 +33,34 @@
                     <thead class="bg-primary text-center">
                         <tr>
                             <th width="50px">No</th>
-                            <th>Nama Siswa</th>
-                            <th>Mata Pelajaran</th>
-                            <th>Nilai</th>
-                            <th>Semester</th>
-                            <th>Tahun Akademik</th>
+                            <th>Nama Guru</th>
+                            <th>Judul Pengumuman</th>
+                            <th>Isi Pengumuman</th>
+                            <th>Tanggal Pengumuman</th>
                             <?php if ($level === '3' || $level === '1') { ?>
                             <th width="100px">Aksi</th>
                             <?php } ?>
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($nilai as $key => $data) { ?>
+                        <?php foreach ($pengumuman as $key => $data) { ?>
                         <tr>
                             <td class="text-center"><?= $key + 1 ?></td>
-                            <td><?= $data['nama_siswa']; ?></td>
-                            <td><?= $data['mapel']; ?></td>
-                            <td><?= $data['nilai_angka']; ?></td>
-                            <td><?= $data['semester']; ?></td>
-                            <td><?= $data['tahun_akademik']; ?></td>
+                            <td><?= $data['nama_guru']; ?></td>
+                            <td><?= $data['judul_pengumuman']; ?></td>
+                            <td><?= $data['isi_pengumuman']; ?></td>
+                            <td><?= $data['tgl_pengumuman']; ?></td>
                             <td class="text-center">
                                 <div class="btn-group">
+                                    <a href="<?= base_url('Pengumuman/View/' . $data['id_pengumuman']) ?>"
+                                        class="btn btn-info">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
                                     <?php if ($level === '3' || $level === '1') { ?>
-                                    <a href="<?= base_url('Nilai/Edit/' . $data['id_nilai']) ?>"
+                                    <a href="<?= base_url('Pengumuman/Edit/' . $data['id_pengumuman']) ?>"
                                         class="btn btn-warning">
                                         <i class="fas fa-edit"></i></a>
-                                    <a href="<?= base_url('Nilai/HapusData/' . $data['id_nilai']) ?>"
+                                    <a href="<?= base_url('Pengumuman/HapusData/' . $data['id_pengumuman']) ?>"
                                         onclick="return confirm('Apakah Anda Yakin Ingin Menghapus Data Ini ?')"
                                         class="btn btn-danger">
                                         <i class="fas fa-trash"></i></a>

@@ -64,24 +64,31 @@
             <div class="sidebar">
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-                        <?php if (session()->get('level') == 1): ?> data-accordion="false">
+                        data-accordion="false">
+                        <?php if (session()->get('level') == 1): ?>
                         <li class="nav-item">
                             <a href="<?= base_url('Dashboard') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-newspaper"></i>
+                                <i class="nav-icon fas fa-user"></i>
                                 <p>Dashboard Guru</p>
                             </a>
                         </li>
                         <?php elseif (session()->get('level') == 2): ?>
                         <li class="nav-item">
                             <a href="<?= base_url('Dashboard') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-newspaper"></i>
+                                <i class="nav-icon fas fa-user"></i>
                                 <p>Dashboard Siswa</p>
                             </a>
                         </li>
                         <?php elseif (session()->get('level') == 3): ?>
                         <li class="nav-item">
+                            <a href="<?= base_url('Pengumuman') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-bell"></i>
+                                <p>Pengumuman</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a href="<?= base_url('Dashboard') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-newspaper"></i>
+                                <i class="nav-icon fas fa-user"></i>
                                 <p>Dashboard Admin</p>
                             </a>
                         </li>
@@ -100,43 +107,55 @@
                         <li class="nav-item">
                             <a href="<?= base_url('Jurusan') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
-                                <p>Data Jurusan</p>
+                                <p>Jurusan</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('Kelas') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
-                                <p>Data Kelas</p>
+                                <p>Kelas</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('Mapel') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
-                                <p>Data Mata Pelajaran</p>
+                                <p>Mata Pelajaran</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('Guru') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
-                                <p>Data Guru</p>
+                                <p>Guru</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('Siswa') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
-                                <p>Data Siswa</p>
+                                <p>Siswa</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('Jadwalpelajaran') ?>" class="nav-link">
+                            <a href="<?= base_url('Penilaiantugas') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
-                                <p>Jadwal Pelajaran</p>
+                                <p>Penilaian Tugas</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('Nilai') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
-                                <p>Data Nilai</p>
+                                <p>Nilai</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?= base_url('Jadwalpelajaran') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-book"></i>
+                                <p>Jadwal Pelajaran</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?= base_url('Tugas') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-book"></i>
+                                <p>Tugas</p>
                             </a>
                         </li>
 

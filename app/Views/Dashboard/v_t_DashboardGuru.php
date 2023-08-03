@@ -24,20 +24,28 @@
 
                 <div class="card">
                     <div class="card-header">
+                        <h3 class="card-title">Tambah Pengumuman</h3>
+                    </div>
+                    <div class="card-body">
+                        <a href="<?= base_url('Pengumuman/Tambah') ?>" class="btn btn-primary">Tambah Pengumuman</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
                         <h3 class="card-title">Tambah Nilai Siswa</h3>
                     </div>
                     <div class="card-body">
-                        <a href="<?= base_url('Nilai') ?>" class="btn btn-primary">Tambah Nilai</a>
+                        <a href="<?= base_url('Nilai/Tambah') ?>" class="btn btn-primary">Tambah Nilai</a>
                     </div>
                 </div>
 
                 <div class="card mt-4">
                     <div class="card-header">
-                        <h3 class="card-title">File Assessment</h3>
+                        <h3 class="card-title">Tambah Tugas</h3>
                     </div>
                     <div class="card-body">
-                        <a href="<?= base_url('Assessment/Tambah') ?>" class="btn btn-primary">Tambah File
-                            Assessment</a>
+                        <a href="<?= base_url('Tugas/Tambah') ?>" class="btn btn-primary">Tambah Tugas</a>
                     </div>
                 </div>
             </div>
