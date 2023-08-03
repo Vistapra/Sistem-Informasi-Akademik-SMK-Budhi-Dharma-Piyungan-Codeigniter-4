@@ -81,6 +81,16 @@ class ModelDashboard extends Model
             ->get()
             ->getResultArray();
     }
+    public function getTugasSiswa($id_kelas)
+{
+    return $this->db->table('tugas')
+        ->join('kelas AS k', 'k.id_kelas = tugas.id_kelas', 'left')
+        ->join('mapel AS m', 'm.id_mapel = tugas.id_mapel', 'left')
+        ->where('tugas.id_kelas', $id_kelas)
+        ->get()
+        ->getResultArray();
+}
+
 
 
 

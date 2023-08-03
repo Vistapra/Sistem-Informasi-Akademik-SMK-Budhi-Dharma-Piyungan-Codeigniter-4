@@ -67,6 +67,31 @@
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-outline card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Tugas Siswa</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <?php foreach ($tugas_siswa as $tugas) { ?>
+                            <li class="media">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1"><?= $tugas['judul_tugas'] ?></h5>
+                                    <p><?= $tugas['deskripsi'] ?></p>
+                                    <small class="text-muted">Deadline: <?= $tugas['tgl_deadline'] ?></small>
+                                    <a href="<?= base_url('filetugas/' . $tugas['file_tugas']) ?>" target="_blank"
+                                        class="btn btn-primary btn-sm">Unduh Tugas</a>
+                                </div>
+                            </li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="col-md-12">
             <div class="card card-outline card-primary">
                 <div class="card-header">

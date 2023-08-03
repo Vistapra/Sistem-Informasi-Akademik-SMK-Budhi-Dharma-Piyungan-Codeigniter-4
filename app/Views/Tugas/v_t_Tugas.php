@@ -67,7 +67,7 @@
                                     <a href="<?= base_url('Tugas/edit/' . $t['id_tugas']) ?>" class="btn btn-warning">
                                         <i class="fas fa-edit"></i>
                                     </a>
-                                    <a href="<?= base_url('Tugas/hapusdata/' . $t['id_tugas']) ?>"
+                                    <a href="<?= base_url('Tugas/HapusData/' . $t['id_tugas']) ?>"
                                         onclick="return confirm('Apakah Anda Yakin Ingin Menghapus Data Ini ?')"
                                         class="btn btn-danger">
                                         <i class="fas fa-trash"></i>

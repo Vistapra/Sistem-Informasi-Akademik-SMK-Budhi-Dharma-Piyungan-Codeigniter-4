@@ -45,7 +45,9 @@ class Dashboard extends BaseController
             $jadwal_siswa = $this->ModelDashboard->getJadwalPelajaranSiswa($nisn);
             $nilai_siswa = $this->ModelDashboard->getNilaiSiswa($siswa['id_siswa']);
             $pengumuman = $this->ModelPengumuman->GetLatestPengumuman(5);
-
+            $id_kelas = $siswa['id_kelas'];
+            $tugas_siswa = $this->ModelDashboard->getTugasSiswa($id_kelas);
+        
             $data = [
                 'judul' => 'Dashboard Siswa',
                 'subjudul' => 'Data Dashboard Siswa',
@@ -55,8 +57,9 @@ class Dashboard extends BaseController
                 'jadwal_siswa' => $jadwal_siswa,
                 'nilai_siswa' => $nilai_siswa,
                 'pengumuman' => $pengumuman,
+                'tugas_siswa' => $tugas_siswa,
             ];
-
+        
             return view('Frontend/v_halaman_admin', $data);
         } else if ($level == 3) {
             $username = session()->get('username');

@@ -122,12 +122,8 @@ public function UbahData()
     session()->setFlashdata('ubah', 'Data Berhasil Diubah');
     return redirect()->to('Tugas');
 }
-
-
-    public function HapusData()
+    public function HapusData($id_tugas)
     {
-        $id_tugas = $this->request->getPost('id_tugas');
-
         $this->ModelTugas->HapusData($id_tugas);
         session()->setFlashdata('hapus', 'Data Berhasil Dihapus');
         return redirect()->to('Tugas');
