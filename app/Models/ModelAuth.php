@@ -16,8 +16,6 @@ class ModelAuth extends Model
         if ($user && password_verify($password, $user['password'])) {
             return $user;
         }
-
-        return null;
     }
 
     public function loginSiswa($nisn, $password)
@@ -30,8 +28,6 @@ class ModelAuth extends Model
         if ($user && password_verify($password, $user['password'])) {
             return $user;
         }
-
-        return null;
     }
 
     public function loginAdmin($username, $password)
@@ -44,8 +40,6 @@ class ModelAuth extends Model
         if ($user && password_verify($password, $user['password'])) {
             return $user;
         }
-
-        return null;
     }
 
     private function hashPassword($password)

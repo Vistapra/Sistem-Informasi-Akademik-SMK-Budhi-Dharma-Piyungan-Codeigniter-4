@@ -12,7 +12,6 @@ class ModelSiswa extends Model
             ->select('siswa.*, jurusan.jurusan, kelas.kelas')
             ->join('jurusan', 'jurusan.id_jurusan = siswa.id_jurusan', 'left')
             ->join('kelas', 'kelas.id_kelas = siswa.id_kelas', 'left')
-            ->orderBy('siswa.nama_siswa', 'ASC')
             ->get()
             ->getResultArray();
     }
