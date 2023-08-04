@@ -17,6 +17,10 @@ class ModelEkstrakurikuller extends Model
     {
         return $this->db->table('ekstra')->insert($data);
     }
+    public function TampilEkstra($nama_ekstra)
+    {
+        return $this->db->table('ekstra')->where('nama_ekstra', $nama_ekstra)->get()->getRowArray();
+    }
 
     public function DetailData($id_ekstra)
     {

@@ -23,8 +23,8 @@ class ModelGuru extends Model
     public function DetailData($id_guru)
     {
         return $this->db->table('guru')
-            ->where('id_guru', $id_guru)
             ->join('jurusan', 'guru.id_jurusan = jurusan.id_jurusan', 'left')
+            ->where('id_guru', $id_guru)
             ->get()
             ->getRowArray();
     }

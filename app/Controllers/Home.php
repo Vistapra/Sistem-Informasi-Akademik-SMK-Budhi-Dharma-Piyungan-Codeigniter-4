@@ -85,13 +85,13 @@ class Home extends BaseController
         ];
         return view('Frontend/v_halaman_depan', $data);
     }
-    public function TampilEkstrakurikuller ()
+    public function TampilEkstra($nama_ekstra)
     {
         $data = [
             'judul' => 'Ekstrakurikuller',
             'subjudul' => 'Ekstrakurikuller Sekolah',
             'page' => 'IsiFrontend/v_tampil_ekstrakurikuller',
-            'ekstra' => $this->ModelEkstrakurikuller->AllData(),
+            'ekstra' => $this->ModelEkstrakurikuller->TampilEkstra($nama_ekstra),
         ];
         return view('Frontend/v_halaman_depan', $data);
     }

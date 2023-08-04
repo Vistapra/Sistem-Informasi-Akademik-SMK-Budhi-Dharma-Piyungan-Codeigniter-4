@@ -94,14 +94,26 @@
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('Berita') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-newspaper"></i>
+                                <i class="nav-icon fas fa-table"></i>
                                 <p>Berita</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('Ekstrakurikuller') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-newspaper"></i>
+                                <i class="nav-icon fas fa-table"></i>
                                 <p>Ekstrakurikuller</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?= base_url('Jadwalpelajaran') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>Jadwal Pelajaran</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?= base_url('Tugas') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>Tugas</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -138,18 +150,6 @@
                             <a href="<?= base_url('Nilai') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>Nilai</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="<?= base_url('Jadwalpelajaran') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-book"></i>
-                                <p>Jadwal Pelajaran</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="<?= base_url('Tugas') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-book"></i>
-                                <p>Tugas</p>
                             </a>
                         </li>
 

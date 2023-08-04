@@ -13,7 +13,8 @@ class ModelJadwalpelajaran extends Model
             ->join('kelas', 'jadwalpelajaran.id_kelas = kelas.id_kelas', 'left')
             ->join('mapel', 'jadwalpelajaran.id_mapel = mapel.id_mapel', 'left')
             ->join('guru', 'jadwalpelajaran.id_guru = guru.id_guru', 'left')
-            ->get()->getResultArray();
+            ->get()
+            ->getResultArray();
     }
 
     public function TambahData($data)

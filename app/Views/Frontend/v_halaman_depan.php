@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4">
                         <div class="logo">
-                            <a href="index-2.html">
+                            <a href="<?= base_url('Home') ?>">
                                 <img src="<?= base_url('smkbudhi') ?>/images/logo.png" alt="Logo">
                             </a>
                         </div>

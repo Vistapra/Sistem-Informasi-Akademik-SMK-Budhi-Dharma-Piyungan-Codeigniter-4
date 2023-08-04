@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="<?= base_url('AdminLte') ?>/dist/css/adminlte.min.css">
     <style>
     body {
-        background-image: url('gambarsekolah/sekolah4.jpg');
+        background-image: url('gambarsekolah/sekolah2.png');
         background-size: cover;
     }
 
@@ -46,7 +46,7 @@
                 </div>
                 <div class="form-group">
                     <select name="level" class="form-control" required>
-                        <option value="">---Level---</option>
+                        <option value="">--Pilih Login Sebagai--</option>
                         <option value="3">Admin</option>
                         <option value="1">Guru</option>
                         <option value="2">Siswa</option>
