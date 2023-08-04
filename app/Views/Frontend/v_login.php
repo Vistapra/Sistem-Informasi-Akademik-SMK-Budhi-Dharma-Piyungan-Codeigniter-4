@@ -11,6 +11,25 @@
     <link rel="stylesheet" href="<?= base_url('AdminLte') ?>/plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="<?= base_url('AdminLte') ?>/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <link rel="stylesheet" href="<?= base_url('AdminLte') ?>/dist/css/adminlte.min.css">
+    <style>
+    body {
+        background-image: url('gambarsekolah/sekolah4.jpg');
+        background-size: cover;
+    }
+
+    .login-box {
+        margin: auto;
+        max-width: 400px;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+        background-color: transparent;
+    }
+    </style>
 </head>
 
 <body class="hold-transition login-page">

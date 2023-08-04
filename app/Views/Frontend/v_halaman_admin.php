@@ -135,12 +135,6 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('Penilaiantugas') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-table"></i>
-                                <p>Penilaian Tugas</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
                             <a href="<?= base_url('Nilai') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>Nilai</p>
