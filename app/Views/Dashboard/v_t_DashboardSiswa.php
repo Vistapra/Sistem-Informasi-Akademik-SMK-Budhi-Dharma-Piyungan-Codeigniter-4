@@ -64,6 +64,7 @@
                                 </thead>
                                 <tbody>
                                     <?php foreach ($jadwal_siswa as $jadwal): ?>
+                                    <?php if ($jadwal['hari'] == date('l')): ?>
                                     <tr>
                                         <td><?= $jadwal['hari']; ?></td>
                                         <td><?= $jadwal['waktu_mulai']; ?></td>
@@ -72,6 +73,7 @@
                                         <td><?= $jadwal['mapel']; ?></td>
                                         <td><?= $jadwal['nama_guru']; ?></td>
                                     </tr>
+                                    <?php endif; ?>
                                     <?php endforeach; ?>
                                 </tbody>
                             </table>

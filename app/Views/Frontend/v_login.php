@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<?= base_url('AdminLte') ?>/plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="<?= base_url('AdminLte') ?>/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <link rel="stylesheet" href="<?= base_url('AdminLte') ?>/dist/css/adminlte.min.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <style>
     body {
         background-image: url('gambarsekolah/sekolah2.png');
@@ -63,6 +64,9 @@
                     <div class="col-8"></div>
                     <div class="col-4">
                         <button type="submit" class="btn btn-primary btn-block">Masuk</button>
+                    </div>
+                    <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6Ld05X8nAAAAAJQ6Nfq4KewqJ4BU6ja8D2g12spE"></div>
                     </div>
                 </div>
                 <?= form_close() ?>
