@@ -109,7 +109,7 @@ Sistem Informasi Akademik SMK Budhi Dharma Piyungan adalah aplikasi berbasis web
 
 1. Clone repositori:
    ```
-   git clone https://github.com/username/sistem-informasi-akademik-smk-budhi-dharma.git](https://github.com/Vistapra/Sistem-Informasi-Akademik-SMK-Budhi-Dharma-Piyungan-Codeigniter-4.git
+   git clone https://github.com/Vistapra/Sistem-Informasi-Akademik-SMK-Budhi-Dharma-Piyungan-Codeigniter-4.git
    ```
 
 2. Masuk ke direktori proyek:
